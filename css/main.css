@@ -7002,6 +7002,12 @@ Created using IcoMoon - icomoon.io
   color: #fff;
 }
 
+/* Education Hoppefully Style */
+.cc-education .cc-education-hopefully {
+  padding-top: 60px;
+  padding-right: 0;
+}
+
 /* References Style */
 .cc-reference .card {
   padding: 40px;
@@ -7053,6 +7059,19 @@ Created using IcoMoon - icomoon.io
   .cc-contact-information .cc-contact {
     padding: 30px 0px 30px 0px;
   }
+}
+
+#googlemaps {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 0; /* Set z-index to 0 as it will be on a layer below the contact form */
+}
+
+#contactform {
+  position: relative;
+  z-index: 1; /* The z-index should be higher than Google Maps */
+  opacity: 0.95; /* Set the opacity for a slightly transparent Google Form */
 }
 
 /* Footer */
