@@ -7051,6 +7051,7 @@ Created using IcoMoon - icomoon.io
   width: 100%;
   position: relative;
   overflow: hidden;
+  pointer-events: all;
 }
 .cc-contact-information .cc-contact {
   padding: 8% 0 8% 20%;
@@ -7062,10 +7063,12 @@ Created using IcoMoon - icomoon.io
 }
 
 #googlemaps {
+  /* pointer-events: none; */
   width: 100%;
   height: 100%;
   position: absolute;
   z-index: 0; /* Set z-index to 0 as it will be on a layer below the contact form */
+  /* visibility: visible; */
 }
 
 #contactform {
@@ -7084,12 +7087,16 @@ Created using IcoMoon - icomoon.io
   color: #1da1f2;
 }
 
-.cc-google-plus:hover i {
-  color: #dd4b39;
+.cc-instagram:hover i {
+  color: #f64d54;
 }
 
-.cc-instagram:hover i {
-  color: #405de6;
+.cc-linkedin:hover i {
+  color: #0077b5;
+}
+
+.cc-github:hover i {
+  color: #1b1f23;
 }
 
 /* Credit Style */
