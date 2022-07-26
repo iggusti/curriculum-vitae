@@ -1,7 +1,20 @@
 {
+  "lang": "en",
   "short_name": "iggusti's page",
   "name": "Ilham Gumantung Gusti Page",
+  "icons": [
+    {
+      "src": "/images/iggusti.webp",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/images/cc-bg-1.webp",
+      "purpose": "maskable"
+    }
+  ],
   "start_url": "/index.html",
   "display": "standalone",
-  "scope": "https://iggusti.github.io/curriculum-vitae/"
+  "scope": "https://iggusti.github.io/curriculum-vitae/",
+  "theme_color": "aliceblue",
+  "background_color": "red"
 }
