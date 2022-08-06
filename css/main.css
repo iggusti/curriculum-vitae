@@ -7087,12 +7087,12 @@ Created using IcoMoon - icomoon.io
   height: 100%;
   position: absolute;
   z-index: 0; /* Set z-index to 0 as it will be on a layer below the contact form */
-  /* visibility: visible; */
+  visibility: visible;
 }
 
 #contactform {
   position: relative;
-  z-index: 1; /* The z-index should be higher than Google Maps */
+  z-index: 100; /* The z-index should be higher than Google Maps */
   opacity: 0.95; /* Set the opacity for a slightly transparent Google Form */
 }
 
