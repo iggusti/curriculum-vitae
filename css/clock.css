@@ -7,7 +7,6 @@ body {
   color: #1c1b22;
   box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.4);
 }
-
 .clock {
   position: absolute;
   top: 50%;
@@ -21,7 +20,6 @@ body {
   overflow: hidden;
   box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.4);
 }
-
 .clock::after {
   content: "";
   position: absolute;
@@ -32,20 +30,17 @@ body {
   border-radius: 50%;
   box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.4);
 }
-
 .hand {
   box-shadow: 5px 6px 5px rgba(0, 0, 0, 0.3);
 }
 .clock::after {
   box-shadow: 4px 2px 5px rgba(0, 0, 0, 0.3);
 }
-
 .min,
 .sec,
 .clock::after {
   background-color: #4a904e;
 }
-
 .min,
 .sec {
   position: absolute;
@@ -53,7 +48,6 @@ body {
   /* right: 50%; */
   transform-origin: bottom center;
 }
-
 .hr {
   position: absolute;
   top: 0;
@@ -61,7 +55,6 @@ body {
   right: 0;
   bottom: 0;
 }
-
 .hr::before,
 .hr::after {
   content: "";
@@ -71,21 +64,18 @@ body {
   background-color: #1c1b22;
   box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.4);
 }
-
 .hr::after {
   left: 50%;
   transform: rotate(15deg);
   transform-origin: left;
   animation: turn-r 43200s steps(24) infinite forwards; /* one step every half hour */
 }
-
 .hr::before {
   right: 50%;
   transform: rotate(-15deg);
   transform-origin: right;
   animation: turn-l 43200s steps(24) infinite forwards;
 }
-
 /* Minute and Second Hands */
 .min,
 .sec {
@@ -93,7 +83,6 @@ body {
   transform-origin: bottom center;
   animation: turn infinite forwards;
 }
-
 .min {
   width: 5px;
   height: 180px;
@@ -101,7 +90,6 @@ body {
   animation-duration: 3600s;
   animation-timing-function: steps(60);
 }
-
 .sec {
   width: 2px;
   height: 200px;
@@ -109,7 +97,6 @@ body {
   animation-duration: 60s;
   animation-timing-function: steps(60);
 }
-
 /* Hour Marks */
 .mark {
   background-color: white;
@@ -120,25 +107,21 @@ body {
   transform: translateX(-50%) translateY(-50%);
   text-align: center;
 }
-
 .twelve {
   top: 40px;
   left: 50%;
 }
-
 /* Animations */
 @keyframes turn-r {
   to {
     transform: rotate(375deg);
   }
 }
-
 @keyframes turn-l {
   to {
     transform: rotate(345deg);
   }
 }
-
 @keyframes turn {
   to {
     transform: rotate(360deg);

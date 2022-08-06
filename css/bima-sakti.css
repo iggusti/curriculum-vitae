@@ -5,13 +5,11 @@
   margin: 0;
   box-sizing: border-box;
 }
-
 html,
 body {
   height: 100%;
   width: 100%;
 }
-
 body {
   font: normal 1em/1.45em "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -19,7 +17,6 @@ body {
   background: radial-gradient(ellipse at bottom, #1c2837 0%, #050608 100%);
   background-attachment: fixed;
 }
-
 .solar-syst {
   margin: 0 auto;
   width: 100%;
@@ -555,7 +552,6 @@ body {
 .solar-syst div:not(.asteroids-belt):before {
   box-shadow: inset 0 6px 0 -2px rgba(0, 0, 0, 0.25);
 }
-
 .sun {
   background: radial-gradient(
     ellipse at center,
@@ -575,7 +571,6 @@ body {
   box-shadow: 0 0 10px 2px rgba(255, 107, 0, 0.4),
     0 0 22px 11px rgba(255, 203, 0, 0.13);
 }
-
 .mercury {
   height: 70px;
   width: 70px;
@@ -590,7 +585,6 @@ body {
   margin-top: -2px;
   margin-left: -2px;
 }
-
 .venus {
   height: 100px;
   width: 100px;
@@ -605,7 +599,6 @@ body {
   margin-top: -4px;
   margin-left: -4px;
 }
-
 .earth {
   height: 145px;
   width: 145px;
@@ -633,7 +626,6 @@ body {
   box-shadow: 0 -10px 0 -8px grey;
   animation: orb 2.2440352158s linear infinite;
 }
-
 .mars {
   height: 190px;
   width: 190px;
@@ -648,7 +640,6 @@ body {
   margin-top: -3px;
   margin-left: -3px;
 }
-
 .jupiter {
   height: 340px;
   width: 340px;
@@ -663,7 +654,6 @@ body {
   margin-top: -9px;
   margin-left: -9px;
 }
-
 .saturn {
   height: 440px;
   width: 440px;
@@ -694,7 +684,6 @@ body {
   animation-direction: reverse;
   transform-origin: 52% 60%;
 }
-
 .uranus {
   height: 520px;
   width: 520px;
@@ -709,7 +698,6 @@ body {
   margin-top: -5px;
   margin-left: -5px;
 }
-
 .neptune {
   height: 630px;
   width: 630px;
@@ -724,7 +712,6 @@ body {
   margin-top: -5px;
   margin-left: -5px;
 }
-
 .asteroids-belt {
   opacity: 0.7;
   border-color: transparent !important;
@@ -1134,7 +1121,6 @@ body {
     9px 43px 0 -104px rgba(255, 255, 255, 0.873),
     34px -90px 0 -104px rgba(255, 255, 255, 0.193);
 }
-
 .pluto {
   height: 780px;
   width: 780px;
@@ -1149,16 +1135,13 @@ body {
   margin-top: -1.5px;
   margin-left: -1.5px;
 }
-
 .hide {
   display: none;
 }
-
 .links {
   margin-top: 5px !important;
   font-size: 1em !important;
 }
-
 @keyframes orb {
   from {
     transform: rotate(0deg);
