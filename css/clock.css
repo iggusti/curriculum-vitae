@@ -1,0 +1,210 @@
+html,
+body {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  background-color: #fef5b4;
+  color: #0f131b;
+}
+
+/* Fondo */
+.clock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 500px;
+  transform: translateX(-50%) translateY(-50%);
+  background: radial-gradient(
+    circle at center,
+    #fff,
+    #fff 70%,
+    #5a5845 70%,
+    #5a5845
+  );
+  border: 30px solid #0f131b;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.4);
+}
+
+.clock::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 20px);
+  left: calc(50% - 20px);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/* .clock, */
+.hand {
+  box-shadow: 5px 6px 5px rgba(0, 0, 0, 0.3);
+}
+.clock::after {
+  box-shadow: 4px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.min,
+.sec,
+.clock::after {
+  background-color: #4a904e;
+}
+
+/* Hands */
+.min,
+.sec {
+  position: absolute;
+  left: 50%;
+  transform-origin: bottom center;
+}
+
+/* Hour hand */
+.hr {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.hr::before,
+.hr::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #0f131b;
+}
+.hr::after {
+  left: 50%;
+  transform: rotate(15deg);
+  transform-origin: left;
+  animation: turn-r 43200s steps(24) infinite forwards; /* one step every half hour */
+}
+.hr::before {
+  right: 50%;
+  transform: rotate(-15deg);
+  transform-origin: right;
+  animation: turn-l 43200s steps(24) infinite forwards;
+}
+
+/* Minute and Second Hands */
+.min,
+.sec {
+  transform: rotate(0);
+  transform-origin: bottom center;
+  animation: turn infinite forwards;
+}
+
+.min {
+  width: 5px;
+  height: 180px;
+  top: calc(50% - 180px);
+  animation-duration: 3600s;
+  animation-timing-function: steps(60);
+}
+
+.sec {
+  width: 2px;
+  height: 200px;
+  top: calc(50% - 200px);
+  animation-duration: 60s;
+  animation-timing-function: steps(60);
+}
+
+/* Hour Marks */
+.mark {
+  position: absolute;
+  font-size: 3em;
+  letter-spacing: -6px;
+  width: 2em;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+}
+
+.four,
+.five,
+.six,
+.seven,
+.eight {
+  transform: translateX(-50%) translateY(50%);
+}
+
+.twelve {
+  top: 40px;
+  left: 50%;
+}
+.six {
+  bottom: 40px;
+}
+.twelve,
+.six {
+  left: 50%;
+}
+
+.three {
+  left: calc(100% - 40px);
+}
+.nine {
+  left: 40px;
+}
+.three,
+.nine {
+  top: 50%;
+}
+
+.one,
+.eleven {
+  top: calc(50% - 210px * 1.732 / 2);
+}
+.one,
+.five {
+  left: calc(50% + 210px * 1 / 2);
+}
+
+.two,
+.ten {
+  top: calc(50% - 210px * 1 / 2);
+}
+.two,
+.four {
+  left: calc(50% + 210px * 1.732 / 2);
+}
+
+.four,
+.eight {
+  bottom: calc(50% - 210px * 1 / 2);
+}
+.five,
+.seven {
+  bottom: calc(50% - 210px * 1.732 / 2);
+}
+
+.seven,
+.eleven {
+  left: calc(50% - 210px * 1 / 2);
+}
+.eight,
+.ten {
+  left: calc(50% - 210px * 1.732 / 2);
+}
+
+/* Animations */
+@keyframes turn-r {
+  to {
+    transform: rotate(375deg);
+  }
+}
+
+@keyframes turn-l {
+  to {
+    transform: rotate(345deg);
+  }
+}
+
+@keyframes turn {
+  to {
+    transform: rotate(360deg);
+  }
+}
