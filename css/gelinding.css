@@ -46,7 +46,7 @@ label:after {
   background: #000;
   border-radius: 100%;
   transition: 1s cubic-bezier(0.25, 1, 0.5, 1);
-  background-image: url(/images/gelinding.png);
+  background-image: url(../images/gelinding-ball.webp);
   background-size: 150%;
   background-position: 50% 50%;
   filter: drop-shadow(-1em 1em 0.5em #6863ae);
