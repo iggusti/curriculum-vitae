@@ -715,9 +715,10 @@
               </div>
             </div>
             <div class="col-lg-6 col-md-12">
-              <div class="row" style="padding-top: 20px; padding-bottom: 20px;">
+              <div class="row" style="padding-top: 20px; padding-bottom: 20px;"
+                onclick="goToNewTab('https://doi.org/10.25124/tektrika.v4i1')">
                 <img src="images/cover-journal-tektrika.jpg" alt="cover-journal-tektrika" width="60%"
-                  style="left: 0; right: 0; margin: auto; vertical-align: middle; box-shadow: 8px 5px 10px rgb(211, 211, 211);" />
+                  style="left: 0; right: 0; margin: auto; vertical-align: middle; box-shadow: 8px 5px 10px rgb(211, 211, 211); cursor: pointer;" />
               </div>
             </div>
           </div>
@@ -887,6 +888,11 @@
     <script src="js/now-ui-kit.js?ver=1.1.0"></script>
     <script src="js/aos.js?ver=1.1.0"></script>
     <script src="scripts/main.js?ver=1.1.0"></script>
+    <script>
+      function goToNewTab(site) {
+        window.open(site, '_blank');
+      }
+    </script>
 </body>
 
 </html>
