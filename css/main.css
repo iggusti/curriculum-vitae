@@ -6532,3 +6532,17 @@ a.credit {
 .section {
   padding-bottom: 0;
 }
+.training {
+  border-radius: 6px;
+  width: 150px;
+  -webkit-filter: drop-shadow(3px 3px 3px rgba(88, 88, 88, 0.856));
+  filter: drop-shadow(3px 3px 3px rgba(88, 88, 88, 0.856));
+}
+.tektrika-journal {
+  left: 0;
+  right: 0;
+  margin: auto;
+  vertical-align: middle;
+  box-shadow: 8px 5px 10px rgb(211, 211, 211);
+  cursor: pointer;
+}
