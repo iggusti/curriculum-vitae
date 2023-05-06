@@ -6546,3 +6546,11 @@ a.credit {
   box-shadow: 8px 5px 10px rgb(211, 211, 211);
   cursor: pointer;
 }
+
+.c-default {
+  cursor: default;
+}
+
+.c-pointer {
+  cursor: pointer;
+}
