@@ -6423,7 +6423,7 @@ Created using IcoMoon - icomoon.io
 }
 /* Education Hoppefully Style */
 .cc-education .cc-education-hopefully {
-  padding-top: 60px;
+  padding-top: 70px;
   padding-right: 0;
 }
 /* References Style */
@@ -6581,4 +6581,10 @@ a.credit {
 
 .c-f22a1d {
   color: #f22a1d;
+}
+
+.job-time {
+  border-radius: 3px;
+  font-size: 10px;
+  color: white;
 }
