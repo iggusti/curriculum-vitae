@@ -11,6 +11,10 @@ div {
   position: absolute;
   transform-style: preserve-3d;
 }
+.header-style {
+  font-weight: normal;
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+}
 .camera {
   position: absolute;
   width: 100%;

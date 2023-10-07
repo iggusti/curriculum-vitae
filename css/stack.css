@@ -8,6 +8,11 @@ body {
 .topnav {
   background-color: #408b48f1;
   overflow: hidden;
+  font-weight: normal;
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  padding-left: 5px;
 }
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -15,9 +20,9 @@ body {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 20px;
+  font-size: 15px;
+  letter-spacing: 1px;
   text-decoration: none;
-  font-size: 17px;
 }
 @media (min-width: 1025px) {
   /* big landscape tablets, laptops, and desktops */
