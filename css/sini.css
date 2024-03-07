@@ -43,3 +43,7 @@ body {
     grid-auto-flow: column;
   }
 }
+.header-style {
+  font-weight: normal;
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+}

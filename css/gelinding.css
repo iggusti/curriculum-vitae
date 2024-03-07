@@ -80,3 +80,8 @@ input:checked + label:after {
   background-position: -100% 50%;
   filter: drop-shadow(-5em 1.5em 0.5em #6863ae);
 }
+
+.header-style {
+  font-weight: normal;
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+}

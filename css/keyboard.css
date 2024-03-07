@@ -8,6 +8,10 @@ body {
   align-items: center;
   height: 100vh;
 }
+.header-style {
+  font-weight: normal;
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+}
 .title {
   color: mintcream;
   text-transform: uppercase;

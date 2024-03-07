@@ -17,6 +17,10 @@ body {
   background: radial-gradient(ellipse at bottom, #1c2837 0%, #050608 100%);
   background-attachment: fixed;
 }
+.header-style {
+  font-weight: normal;
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+}
 .solar-syst {
   margin: 0 auto;
   width: 100%;
