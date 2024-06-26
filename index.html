@@ -163,8 +163,15 @@
                 <div class="h4 mt-0 title">Basic Information</div>
                 <div class="row">
                   <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
-                  <div class="col-sm-8">25</div>
+                  <div class="col-sm-8" id="age"></div>
                 </div>
+                <script>
+                  // Ganti angka 25 dengan nilai yang diinginkan
+                  let age = new Date().getFullYear() - 1997; // Contoh angka dinamis
+              
+                  // Temukan elemen dengan ID "age" dan ganti kontennya
+                  document.getElementById("age").textContent = age;
+                </script>
                 <div class="row mt-3">
                   <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
                   <div class="col-sm-8">iggusti@gmail.com</div>
