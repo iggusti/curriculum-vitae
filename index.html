@@ -163,8 +163,15 @@
                 <div class="h4 mt-0 title">Basic Information</div>
                 <div class="row">
                   <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
-                  <div class="col-sm-8">25</div>
+                  <div class="col-sm-8" id="age"></div>
                 </div>
+                <script>
+                  // Ganti angka 25 dengan nilai yang diinginkan
+                  let age = new Date().getFullYear() - 1997; // Contoh angka dinamis
+              
+                  // Temukan elemen dengan ID "age" dan ganti kontennya
+                  document.getElementById("age").textContent = age;
+                </script>
                 <div class="row mt-3">
                   <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
                   <div class="col-sm-8">iggusti@gmail.com</div>
@@ -194,13 +201,14 @@
           <div class="card-body">
             <div class="row">
               <div class="col-md-6">
-                <div class="progress-container progress-primary"><span class="progress-badge"><i
-                      class="fa fa-html5 mr-1 c-dd4b25"></i> HTML</span>
+                <div class="progress-container progress-primary"><span class="progress-badge"><img
+                      src="./images/tailwind.webp" alt="gambar_tailwind" width="18px" height="auto"
+                      class="mr-1">Tailwind</span>
                   <div class="progress">
                     <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
-                      data-aos-duration="2000" role="progressbar" aria-valuenow="95" aria-valuemin="0"
-                      aria-valuemax="100" aria-label="progressbar" style="width: 95%;">
-                    </div><span class="progress-value">95%</span>
+                      data-aos-duration="2000" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                      aria-valuemax="100" aria-label="progressbar" style="width: 70%;"></div><span
+                      class="progress-value">70%</span>
                   </div>
                 </div>
               </div>
@@ -218,14 +226,13 @@
             </div>
             <div class="row">
               <div class="col-md-6">
-                <div class="progress-container progress-primary"><span class="progress-badge"><img
-                      src="./images/typescript.webp" alt="gambar_typescript" width="18px" height="auto"
-                      class="mr-1">TypeScript</span>
+                <div class="progress-container progress-primary"><span class="progress-badge"><i
+                      class="fa-brands fa-react mr-1 c-76d4f2"></i>React</span>
                   <div class="progress">
                     <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
-                      data-aos-duration="2000" role="progressbar" aria-valuenow="95" aria-valuemin="0"
-                      aria-valuemax="100" aria-label="progressbar" style="width: 95%;"></div><span
-                      class="progress-value">95%</span>
+                      data-aos-duration="2000" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                      aria-valuemax="100" aria-label="progressbar" style="width: 80%;"></div><span
+                      class="progress-value">80%</span>
                   </div>
                 </div>
               </div>
@@ -243,37 +250,14 @@
             </div>
             <div class="row">
               <div class="col-md-6">
-                <div class="progress-container progress-primary"><span class="progress-badge"><i
-                      class="fab fa-js mr-1 c-f2cd37"></i> JavaScript</span>
+                <div class="progress-container progress-primary"><span class="progress-badge"><img
+                      src="./images/next-js.webp" alt="gambar_next-js" width="18px" height="auto"
+                      class="mr-1">Next</span>
                   <div class="progress">
                     <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
-                      data-aos-duration="2000" role="progressbar" aria-valuenow="95" aria-valuemin="0"
-                      aria-valuemax="100" aria-label="progressbar" style="width: 95%;"></div><span
-                      class="progress-value">95%</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="progress-container progress-primary"><span class="progress-badge"><i
-                      class="fa-brands fa-react mr-1 c-76d4f2"></i>React</span>
-                  <div class="progress">
-                    <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
-                      data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-                      aria-valuemax="100" aria-label="progressbar" style="width: 60%;"></div><span
-                      class="progress-value">60%</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6">
-                <div class="progress-container progress-primary"><span class="progress-badge"><i
-                      class="fa-brands fa-php mr-1 c-7175aa"></i>PHP</span>
-                  <div class="progress">
-                    <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
-                      data-aos-duration="2000" role="progressbar" aria-valuenow="85" aria-valuemin="0"
-                      aria-valuemax="100" aria-label="progressbar" style="width: 85%;"></div><span
-                      class="progress-value">85%</span>
+                      data-aos-duration="2000" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                      aria-valuemax="100" aria-label="progressbar" style="width: 80%;"></div><span
+                      class="progress-value">80%</span>
                   </div>
                 </div>
               </div>
@@ -282,35 +266,9 @@
                       class="fa-brands fa-laravel mr-1 c-f22a1d"></i>Laravel</span>
                   <div class="progress">
                     <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
-                      data-aos-duration="2000" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                      aria-valuemax="100" aria-label="progressbar" style="width: 70%;"></div><span
-                      class="progress-value">70%</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6">
-                <div class="progress-container progress-primary"><span class="progress-badge"><img
-                      src="./images/tailwind.webp" alt="gambar_tailwind" width="18px" height="auto"
-                      class="mr-1">Tailwind</span>
-                  <div class="progress">
-                    <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
-                      data-aos-duration="2000" role="progressbar" aria-valuenow="50" aria-valuemin="0"
-                      aria-valuemax="100" aria-label="progressbar" style="width: 50%;"></div><span
-                      class="progress-value">50%</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="progress-container progress-primary"><span class="progress-badge"><img
-                      src="./images/next-js.webp" alt="gambar_next-js" width="18px" height="auto"
-                      class="mr-1">Next</span>
-                  <div class="progress">
-                    <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
-                      data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-                      aria-valuemax="100" aria-label="progressbar" style="width: 60%;"></div><span
-                      class="progress-value">60%</span>
+                      data-aos-duration="2000" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                      aria-valuemax="100" aria-label="progressbar" style="width: 90%;"></div><span
+                      class="progress-value">90%</span>
                   </div>
                 </div>
               </div>
@@ -333,17 +291,18 @@
                 </div>
                 <div>
                   <a class="h5 c-pointer" href="https://situ-sps.telkomuniversity.ac.id/emom" style="color: aliceblue;"
-                    target="_blank" title="Electronic Minutes of Meeting">EMoM</a>
+                    target="_blank" title="Electronic Minutes of Meeting">E-MoM</a>
                 </div>
                 <div>
                   <a class="h5 c-pointer" href="https://igracias.telkomuniversity.ac.id/" style="color: aliceblue;"
-                    target="_blank" title="Regulation Information System">RIS</a>
+                    target="_blank" title="Regulation Information System">RIS IGracias</a>
                 </div>
                 <div>
                   <a class="h5 c-pointer" href="https://eis.telkomuniversity.ac.id/" style="color: aliceblue;"
                     target="_blank" title="Event Information System">EIS</a>
                 </div>
                 <div>
+<<<<<<< HEAD
                   <a class="h5 c-pointer" href="https://onedata.usu.ac.id/#/auth/login" style="color: aliceblue;"
                     target="_blank" title="One Data Universitas Sumatera Utara">
                     <img src="./images/logo-usu.webp" style="margin-bottom: 4px;" alt="logo-usu" width="20"
@@ -353,6 +312,17 @@
                 <div>
                   <a class="h5 c-pointer" href="https://soang.telkomuniversity.ac.id/" style="color: aliceblue;"
                     target="_blank" title="System of Administration and Governance">SOANG</a>
+=======
+                  <a class="h5 c-pointer" href="https://usu-fe-staging.telkomdigitalsolution.co/#/home"
+                    style="color: aliceblue;" target="_blank" title="One Data Universitas Sumatera Utara">
+                    <img src="./images/logo-usu.webp" style="margin-bottom: 4px; margin-right: 3px;" alt="logo-usu"
+                      width="20" height="auto"> One Data USU
+                  </a>
+                </div>
+                <div>
+                  <a class="h5 c-pointer" href="https://satu-sps.telkomuniversity.ac.id/ris" style="color: aliceblue;"
+                    target="_blank" title="Regulation Information System">RIS SITU</a>
+>>>>>>> 55a636c081d3198d96fe88ddb46630805ab27ffe
                 </div>
               </div>
             </div>
@@ -380,12 +350,13 @@
                   technical skills required for this role through continuous training and learning.</p>
                 <p>Tool :
                   <i class="fa-brands fa-angular mx-1 c-d2002f"></i>Angular ·
+                  <img src="./images/typescript.webp" alt="gambar_typescript" width="17px" height="auto"
+                    class="mx-1">TypeScript ·
                   <img src="./images/jquery.gif" alt="jquery" width="14px" height="auto" class="mx-1">jQuery ·
                   <img src="./images/codeigniter.webp" alt="gambar_codeigniter" width="14px" height="auto"
                     class="mx-1">CodeIgniter ·
                   <img src="./images/igracias.webp" alt="gambar_igracias" width="12px" height="auto"
-                    class="mx-1">iGracias
-                  Framework ·
+                    class="mx-1">iGracias Framework ·
                   <i class="fa-brands fa-bootstrap mx-1 c-7710f1"></i>Bootstrap.
                 </p>
               </div>
@@ -430,8 +401,7 @@
                   <img src="./images/next-js.webp" alt="gambar_next-js" width="14px" height="auto" class="mx-1">Next.js
                   ·
                   <img src="./images/typescript.webp" alt="gambar_typescript" width="17px" height="auto"
-                    class="mx-1">TypeScript
-                  ·
+                    class="mx-1">TypeScript ·
                   <img src="./images/tailwind.webp" alt="gambar_tailwind" width="17px" height="auto"
                     class="mx-1">Tailwind CSS.
                 </p>
@@ -478,8 +448,7 @@
                   <img src="./images/lumen.svg" alt="lumen" width="8px" height="auto" class="mx-1">Lumen ·
                   <i class="fa-brands fa-angular mx-1 c-d2002f"></i>Angular ·
                   <img src="./images/igracias.webp" alt="gambar_igracias" width="12px" height="auto"
-                    class="mx-1">iGracias
-                  Framework ·
+                    class="mx-1">iGracias Framework ·
                   <img src="./images/oracle.webp" alt="gambar_oracle" width="20px" height="auto" class="mx-1">Oracle.
                 </p>
               </div>
@@ -520,8 +489,7 @@
                   <i class="fa-brands fa-laravel mx-1 c-f22a1d"></i>Laravel ·
                   <img src="./images/lumen.svg" alt="lumen" width="8px" height="auto" class="mx-1">Lumen ·
                   <img src="./images/igracias.webp" alt="gambar_igracias" width="12px" height="auto"
-                    class="mx-1">iGracias
-                  Framework ·
+                    class="mx-1">iGracias Framework ·
                   <img src="./images/oracle.webp" alt="gambar_oracle" width="20px" height="auto" class="mx-1">Oracle.
                 </p>
               </div>
@@ -600,7 +568,7 @@
                       <a href="https://www.telkom.co.id/" target="_blank">
                         <p class="category">PT. Telkom Indonesia (Persero) Tbk.</p>
                       </a>
-                      <p class="bg-default ml-2 p-1 pr-2 font-weight-bold job-time">🌒 Internship</p>
+                      <p class="bg-default ml-2 p-1 pr-2 font-weight-bold job-time">🌖 Internship</p>
                     </div>
                   </div>
                 </div>
@@ -686,7 +654,7 @@
                       <a href="https://bpjs-kesehatan.go.id/bpjs/" target="_blank">
                         <p class="category">BPJS Kesehatan</p>
                       </a>
-                      <p class="bg-default ml-2 p-1 pr-2 font-weight-bold job-time">🌒 Internship</p>
+                      <p class="bg-default ml-2 p-1 pr-2 font-weight-bold job-time">🌖 Internship</p>
                     </div>
                   </div>
                 </div>
