@@ -5,58 +5,24 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="a short written summary of a iggusti's career, qualifications, and education.">
-  <meta name="keywords" content="HTML, CSS, JavaScript, CV, Curriculum Vitae, iggusti, Ilham Gumantung Gusti">
+  <meta name="description" content="Curriculum Vitae of Ilham Gumantung Gusti — web developer and backend engineer based in Bandung, Indonesia.">
+  <meta name="keywords" content="CV, Curriculum Vitae, Web Developer, Portfolio, Ilham Gumantung Gusti, iggusti">
   <meta name="author" content="Ilham Gumantung Gusti">
+  <meta name="robots" content="index, follow">
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="white">
 
-  <meta name="subject" content="Ilham Gumantung Gusti Curriculum Vitae Page">
-  <meta name="copyright" content="iggusti's page">
-  <meta name="language" content="ES">
-  <meta name="robots" content="index, follow">
-  <meta name="revised" content="2023">
-  <meta name="abstract" content="a short written summary of a iggusti's career, qualifications, and education.">
-  <meta name="topic" content="Ilham Gumantung Gusti Curriculum Vitae Page">
-  <meta name="summary" content="a short written summary of a iggusti's career, qualifications, and education.">
-  <meta name="Classification" content="Curriculum Vitae">
-  <meta name="author" content="iggusti, iggusti@gmail.com">
-  <meta name="designer" content="Ilham Gumantung Gusti">
-  <meta name="reply-to" content="iggusti@gmail.com">
-  <meta name="owner" content="Ilham Gumantung Gusti">
-  <meta name="url" content="https://iggusti.github.io/curriculum-vitae/">
-  <meta name="identifier-URL" content="https://iggusti.github.io/curriculum-vitae/">
-  <meta name="directory" content="Ilham Gumantung Gusti">
-  <meta name="pagename" content="Ilham Gumantung Gusti Curriculum Vitae Page">
-  <meta name="category" content="iggusti's page">
-  <meta name="coverage" content="Curriculum Vitae Ilham Gumantung Gusti">
-  <meta name="distribution" content="Curriculum Vitae Ilham Gumantung Gusti">
-  <meta name="rating" content="Curriculum Vitae Ilham Gumantung Gusti">
-  <meta name="revisit-after" content="999 Day">
-  <meta name="subtitle" content="a short written summary of a iggusti's career, qualifications, and education.">
-  <meta name="target" content="iggusti's page">
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="date" content="Oct. 22, 1997">
-  <meta name="search_date" content="1997-10-22">
-  <meta name="DC.title" content="Ilham Gumantung Gusti Curriculum Vitae Page">
-  <meta name="ResourceLoaderDynamicStyles" content="">
-  <meta name="medium" content="blog">
-  <meta name="syndication-source" content="https://mashable.com/2008/12/24/free-brand-monitoring-tools/">
-  <meta name="original-source" content="https://mashable.com/2008/12/24/free-brand-monitoring-tools/">
-  <meta name="verify-v1" content="dV1r/ZJJdDEI++fKJ6iDEl6o+TMNtSu0kv18ONeqM0I=">
-  <meta name="y_key" content="1e39c508e0d87750">
-  <meta name="pageKey" content="guest-home">
-  <meta itemprop="name" content="jQTouch">
-  <meta http-equiv="Expires" content="0">
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Cache-Control" content="no-cache">
-  <meta http-equiv="imagetoolbar" content="no">
-  <meta http-equiv="x-dns-prefetch-control" content="off">
+  <meta property="og:title" content="Ilham Gumantung Gusti — Curriculum Vitae">
+  <meta property="og:description" content="Curriculum Vitae of Ilham Gumantung Gusti — web developer and backend engineer based in Bandung, Indonesia.">
+  <meta property="og:type" content="profile">
+  <meta property="og:url" content="https://iggusti.github.io/curriculum-vitae/">
+  <meta property="og:image" content="https://iggusti.github.io/curriculum-vitae/images/iggusti.webp">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Ilham Gumantung Gusti — Curriculum Vitae">
+  <meta name="twitter:description" content="Curriculum Vitae of Ilham Gumantung Gusti — web developer and backend engineer based in Bandung, Indonesia.">
 
   <link rel="preload" as="image" href="./images/cc-bg-wadukan.webp">
   <link rel="preload" as="image" href="./images/iggusti.webp">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
   <link href="./css/aos.css?ver=1.1.0" rel="stylesheet">
   <link href="./css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
   <link href="./css/main.css?ver=1.1.0" rel="stylesheet">
@@ -166,10 +132,12 @@
                   <div class="col-sm-8" id="age"></div>
                 </div>
                 <script>
-                  // Ganti angka 25 dengan nilai yang diinginkan
-                  let age = new Date().getFullYear() - 1997; // Contoh angka dinamis
-
-                  // Temukan elemen dengan ID "age" dan ganti kontennya
+                  const dob = new Date(1997, 9, 22);
+                  const now = new Date();
+                  let age = now.getFullYear() - dob.getFullYear();
+                  if (now.getMonth() < dob.getMonth() || (now.getMonth() === dob.getMonth() && now.getDate() < dob.getDate())) {
+                    age--;
+                  }
                   document.getElementById("age").textContent = age;
                 </script>
                 <div class="row mt-3">
@@ -311,6 +279,9 @@
                 <div>
                   <a class="h5 c-pointer" href="https://soang.telkomuniversity.ac.id/" style="color: aliceblue;"
                     target="_blank" title="System of Administration and Governance">SOANG</a>
+                </div>
+                <div>
+                  <a class="h5 c-pointer" style="color: aliceblue;" title="Penelusuran Dokumen">PenDok</a>
                 </div>
               </div>
             </div>
