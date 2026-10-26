@@ -6555,6 +6555,10 @@ a.credit {
   cursor: pointer;
 }
 
+.c-aliceblue {
+  color: aliceblue;
+}
+
 .c-dd4b25 {
   color: #dd4b25;
 }
@@ -6587,4 +6591,12 @@ a.credit {
   border-radius: 3px;
   font-size: 10px;
   color: white;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-aos],
+  .progress-container .progress-bar {
+    transition-duration: 0.01ms !important;
+    transition-delay: 0ms !important;
+  }
 }
