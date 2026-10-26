@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "Font Awesome 6 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("../fonts/fa-solid-900.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Font Awesome 6 Brands";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../fonts/fa-brands-400.woff2") format("woff2");
+}
+
+.fa-solid,
+.fa-brands {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-rendering: auto;
+}
+
+.fa-solid {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+}
+
+.fa-brands {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+
+.fa-angular:before {
+  content: "\f420";
+}
+
+.fa-bootstrap:before {
+  content: "\f836";
+}
+
+.fa-camera:before {
+  content: "\f030";
+}
+
+.fa-circle-user:before {
+  content: "\f2bd";
+}
+
+.fa-envelope:before {
+  content: "\f0e0";
+}
+
+.fa-facebook:before {
+  content: "\f09a";
+}
+
+.fa-file-invoice:before {
+  content: "\f570";
+}
+
+.fa-file-lines:before {
+  content: "\f15c";
+}
+
+.fa-github:before {
+  content: "\f09b";
+}
+
+.fa-house:before {
+  content: "\f015";
+}
+
+.fa-instagram:before {
+  content: "\f16d";
+}
+
+.fa-laptop:before {
+  content: "\f109";
+}
+
+.fa-laravel:before {
+  content: "\f3bd";
+}
+
+.fa-linkedin:before {
+  content: "\f08c";
+}
+
+.fa-paper-plane:before {
+  content: "\f1d8";
+}
+
+.fa-react:before {
+  content: "\f41b";
+}
+
+.fa-twitter:before {
+  content: "\f099";
+}
