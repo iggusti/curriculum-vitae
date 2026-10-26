@@ -19,7 +19,11 @@
   }
 
   if (window.AOS) {
-    AOS.init();
+    AOS.init({
+      disable:
+        window.matchMedia &&
+        window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    });
   }
 
   document.addEventListener('click', function (event) {
@@ -47,4 +51,71 @@
     target.setAttribute('tabindex', '-1');
     target.focus({ preventScroll: true });
   });
+
+  var navigation = document.getElementById('navigation');
+  var toggler = document.querySelector('.navbar-toggler');
+
+  if (navigation && toggler && window.jQuery) {
+    var $navigation = window.jQuery(navigation);
+
+    navigation.addEventListener('click', function (event) {
+      if (event.target.closest('a') && navigation.classList.contains('show')) {
+        $navigation.collapse('hide');
+      }
+    });
+
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape' && navigation.classList.contains('show')) {
+        $navigation.collapse('hide');
+        toggler.focus();
+      }
+    });
+  }
+
+  var contactForm = document.querySelector('#contact form');
+
+  window.addEventListener('beforeprint', function () {
+    document.querySelectorAll('img[loading="lazy"]').forEach(function (image) {
+      image.loading = 'eager';
+    });
+  });
+
+  if (contactForm) {
+    var status = document.getElementById('contact-status');
+    var submit = contactForm.querySelector('button[type="submit"]');
+
+    contactForm.addEventListener('submit', function (event) {
+      if (!window.fetch || !status || !submit) {
+        return;
+      }
+
+      event.preventDefault();
+      status.className = 'mt-3';
+      status.textContent = 'Sending your message...';
+      submit.disabled = true;
+
+      window
+        .fetch(contactForm.action, {
+          method: 'POST',
+          body: new FormData(contactForm),
+          headers: { Accept: 'application/json' }
+        })
+        .then(function (response) {
+          if (!response.ok) {
+            throw new Error('Request failed');
+          }
+
+          contactForm.reset();
+          status.className = 'mt-3 text-success';
+          status.textContent = 'Thanks! Your message has been sent.';
+        })
+        .catch(function () {
+          status.className = 'mt-3 text-danger';
+          status.textContent = 'Sorry, something went wrong. Please email me instead.';
+        })
+        .then(function () {
+          submit.disabled = false;
+        });
+    });
+  }
 })();

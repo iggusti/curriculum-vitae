@@ -6,7 +6,7 @@ body {
 }
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #408b48f1;
+  background-color: #3a7f40;
   overflow: hidden;
   font-weight: normal;
   font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
@@ -18,7 +18,7 @@ body {
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #ffffff;
   text-align: center;
   font-size: 15px;
   letter-spacing: 1px;

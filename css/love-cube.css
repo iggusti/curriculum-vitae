@@ -112,3 +112,7 @@ img {
     transform: rotateX(90deg);
   }
 }
+
+main.main-flat {
+  display: contents;
+}
