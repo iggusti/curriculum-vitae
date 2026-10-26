@@ -2877,7 +2877,12 @@ body {
   text-align: center;
 }
 .nav-align-center .nav-pills {
-  display: inline-flex;
+  display: flex;
+  justify-content: center;
+  gap: 19px;
+}
+.nav-align-center .nav-pills .nav-item .nav-link {
+  margin-right: 0;
 }
 .btn-twitter {
   color: #55acee;
@@ -6382,6 +6387,9 @@ Created using IcoMoon - icomoon.io
 .button-container .btn-default {
   margin-right: 8px;
 }
+.button-container .btn-default:last-child {
+  margin-right: 0;
+}
 /* Professional Skills Style */
 .progress-container {
   margin-bottom: 20px;
@@ -6446,12 +6454,12 @@ Created using IcoMoon - icomoon.io
 .cc-reference .carousel-inner {
   box-shadow: none;
 }
+.cc-reference .carousel-indicators {
+  bottom: -16px;
+}
 @media (max-width: 768px) {
   .cc-reference .cc-reference-header {
     text-align: center;
-  }
-  .cc-reference .carousel-indicators {
-    bottom: 0px;
   }
   .cc-reference ol {
     margin-bottom: 0;
