@@ -1,18 +1,25 @@
 {
   "lang": "en",
+  "dir": "ltr",
   "short_name": "iggusti's page",
   "name": "Ilham Gumantung Gusti — Curriculum Vitae",
   "icons": [
     {
-      "src": "/curriculum-vitae/images/iggusti.webp",
-      "sizes": "any",
-      "type": "image/webp",
-      "purpose": "any maskable"
+      "src": "images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
     }
   ],
-  "start_url": "/curriculum-vitae/",
+  "start_url": ".",
+  "scope": ".",
   "display": "standalone",
-  "scope": "/curriculum-vitae/",
   "theme_color": "aliceblue",
   "background_color": "#ffffff"
 }

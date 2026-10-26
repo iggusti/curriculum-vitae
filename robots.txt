@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://iggusti.github.io/curriculum-vitae/sitemap.xml

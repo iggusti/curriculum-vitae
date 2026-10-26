@@ -16,10 +16,10 @@ Personal CV / portfolio website — https://iggusti.github.io/curriculum-vitae/
 
 - HTML5, CSS3, JavaScript
 - Bootstrap 4 + Now UI Kit
-- jQuery 3.2.1 + Popper.js
+- jQuery 3.7.1 + Popper.js
 - Font Awesome (kit CDN)
 - Google Fonts (Montserrat)
-- GitHub Pages (Jekyll)
+- GitHub Pages (static, `.nojekyll`)
 
 ## Struktur
 
@@ -27,9 +27,11 @@ Personal CV / portfolio website — https://iggusti.github.io/curriculum-vitae/
 .
 ├── index.html              # Halaman utama CV
 ├── manifest.json           # Manifest PWA
+├── robots.txt              # Aturan crawler
+├── sitemap.xml             # Peta situs
 ├── css/                    # Stylesheet (bootstrap, main, animasi per proyek)
 ├── js/                     # jQuery, Bootstrap, AOS, Now UI Kit
-├── scripts/main.js         # Inisialisasi AOS & smooth-scroll
+├── scripts/main.js         # Inisialisasi AOS, smooth-scroll, dan umur otomatis
 ├── images/                 # Gambar (mayoritas .webp)
 ├── portfolio/              # Halaman detail portofolio
 └── pdf/iggusti cv.pdf      # CV versi PDF
