@@ -1,8 +1,10 @@
 {
+  "id": "/curriculum-vitae/",
   "lang": "en",
   "dir": "ltr",
-  "short_name": "iggusti's page",
-  "name": "Ilham Gumantung Gusti — Curriculum Vitae",
+  "name": "Ilham Gumantung Gusti - Curriculum Vitae",
+  "short_name": "iggusti",
+  "description": "Curriculum vitae and portfolio of Ilham Gumantung Gusti, a web developer and farmer.",
   "icons": [
     {
       "src": "images/icon-192.png",
@@ -15,11 +17,19 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
+    },
+    {
+      "src": "images/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ],
-  "start_url": ".",
-  "scope": ".",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
-  "theme_color": "aliceblue",
-  "background_color": "#ffffff"
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#3a7f40",
+  "categories": ["portfolio", "education", "productivity"]
 }

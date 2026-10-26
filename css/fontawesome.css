@@ -75,6 +75,10 @@
   content: "\f09b";
 }
 
+.fa-heart:before {
+  content: "\f004";
+}
+
 .fa-house:before {
   content: "\f015";
 }

@@ -19,11 +19,7 @@
   }
 
   if (window.AOS) {
-    AOS.init({
-      disable:
-        window.matchMedia &&
-        window.matchMedia('(prefers-reduced-motion: reduce)').matches
-    });
+    AOS.init();
   }
 
   document.addEventListener('click', function (event) {
@@ -116,6 +112,12 @@
         .then(function () {
           submit.disabled = false;
         });
+    });
+  }
+
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function () {
+      navigator.serviceWorker.register('./sw.js').catch(function () {});
     });
   }
 })();

@@ -6621,19 +6621,6 @@ a.c-aliceblue:focus {
   color: #ffffff;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .progress-container .progress .progress-bar {
-    transition-duration: 0.2s !important;
-  }
-
-  .cc-profile-image a:before {
-    animation: none !important;
-  }
-
-  .page-header-image[data-parallax="true"] {
-    transform: none !important;
-  }
-}
 
 @media print {
   .navbar,
