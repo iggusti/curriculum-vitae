@@ -6555,8 +6555,23 @@ a.credit {
   cursor: pointer;
 }
 
-.c-aliceblue {
+.c-aliceblue,
+a.c-aliceblue:hover,
+a.c-aliceblue:focus {
   color: aliceblue;
+}
+
+.btn.btn-icon.btn-lg i.fa-brands {
+  font-size: 1.325rem;
+}
+
+.btn.btn-icon:not(.btn-footer) i.fa-brands {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-12px, -12px);
+  line-height: 1.5626rem;
+  width: 25px;
 }
 
 .c-dd4b25 {
@@ -6591,12 +6606,4 @@ a.credit {
   border-radius: 3px;
   font-size: 10px;
   color: white;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  [data-aos],
-  .progress-container .progress-bar {
-    transition-duration: 0.01ms !important;
-    transition-delay: 0ms !important;
-  }
 }
