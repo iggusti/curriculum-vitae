@@ -1,914 +1,363 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Curriculum Vitae of Ilham Gumantung Gusti — web developer and backend engineer based in Bandung, Indonesia."
+    />
+    <meta name="author" content="Ilham Gumantung Gusti" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme: light)"
+      content="#3a7f40"
+    />
+    <link rel="canonical" href="https://iggusti.github.io/curriculum-vitae/" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Curriculum Vitae of Ilham Gumantung Gusti — web developer and backend engineer based in Bandung, Indonesia.">
-  <meta name="author" content="Ilham Gumantung Gusti">
-  <meta name="robots" content="index, follow, max-image-preview:large">
-  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#3a7f40">
-  <link rel="canonical" href="https://iggusti.github.io/curriculum-vitae/">
+    <meta
+      property="og:title"
+      content="Ilham Gumantung Gusti — Curriculum Vitae"
+    />
+    <meta
+      property="og:description"
+      content="Curriculum Vitae of Ilham Gumantung Gusti — web developer and backend engineer based in Bandung, Indonesia."
+    />
+    <meta property="og:type" content="profile" />
+    <meta
+      property="og:url"
+      content="https://iggusti.github.io/curriculum-vitae/"
+    />
+    <meta
+      property="og:image"
+      content="https://iggusti.github.io/curriculum-vitae/images/og-cover.jpg"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Ilham Gumantung Gusti" />
+    <meta property="og:site_name" content="iggusti's page" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Ilham Gumantung Gusti — Curriculum Vitae"
+    />
+    <meta
+      name="twitter:description"
+      content="Curriculum Vitae of Ilham Gumantung Gusti — web developer and backend engineer based in Bandung, Indonesia."
+    />
+    <meta
+      name="twitter:image"
+      content="https://iggusti.github.io/curriculum-vitae/images/og-cover.jpg"
+    />
 
-  <meta property="og:title" content="Ilham Gumantung Gusti — Curriculum Vitae">
-  <meta property="og:description" content="Curriculum Vitae of Ilham Gumantung Gusti — web developer and backend engineer based in Bandung, Indonesia.">
-  <meta property="og:type" content="profile">
-  <meta property="og:url" content="https://iggusti.github.io/curriculum-vitae/">
-  <meta property="og:image" content="https://iggusti.github.io/curriculum-vitae/images/og-cover.jpg">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Ilham Gumantung Gusti">
-  <meta property="og:site_name" content="iggusti's page">
-  <meta property="og:locale" content="en_US">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Ilham Gumantung Gusti — Curriculum Vitae">
-  <meta name="twitter:description" content="Curriculum Vitae of Ilham Gumantung Gusti — web developer and backend engineer based in Bandung, Indonesia.">
-  <meta name="twitter:image" content="https://iggusti.github.io/curriculum-vitae/images/og-cover.jpg">
-
-  <link rel="preload" as="font" type="font/woff2" href="./fonts/montserrat-latin-400-normal.woff2" crossorigin>
-  <link rel="preload" as="font" type="font/woff2" href="./fonts/montserrat-latin-700-normal.woff2" crossorigin>
-  <link rel="preload" as="font" type="font/woff2" href="./fonts/fa-solid-900.woff2" crossorigin>
-  <link rel="preload" as="font" type="font/woff2" href="./fonts/fa-brands-400.woff2" crossorigin>
-  <link rel="preload" as="image" href="./images/cc-bg-wadukan.webp" fetchpriority="high">
-  <link rel="preload" as="image" href="./images/iggusti.webp" fetchpriority="high">
-  <link href="./css/fonts.css?ver=1.4.2" rel="stylesheet">
-  <link href="./css/fontawesome.css?ver=1.4.2" rel="stylesheet">
-  <link href="./css/aos.css?ver=1.4.2" rel="stylesheet">
-  <link href="./css/bootstrap.min.css?ver=1.4.2" rel="stylesheet">
-  <link href="./css/main.css?ver=1.4.2" rel="stylesheet">
-  <link rel="manifest" href="manifest.json">
-  <title>iggusti's page 😄</title>
-  <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
-  <link rel="apple-touch-icon" href="./images/apple-touch-icon.png">
-  <noscript>
-    <style type="text/css">
-      [data-aos] {
-        opacity: 1 !important;
-        transform: translate(0) scale(1) !important;
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      href="./fonts/montserrat-latin-400-normal.woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      href="./fonts/montserrat-latin-700-normal.woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      href="./fonts/fa-solid-900.woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      href="./fonts/fa-brands-400.woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="./images/cc-bg-wadukan.webp"
+      fetchpriority="high"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="./images/iggusti.webp"
+      imagesrcset="./images/iggusti-150.webp 150w, ./images/iggusti.webp 300w"
+      imagesizes="150px"
+      fetchpriority="high"
+    />
+    <link href="./css/fonts.css?ver=1.4.3" rel="stylesheet" />
+    <link href="./css/fontawesome.css?ver=1.4.3" rel="stylesheet" />
+    <link href="./css/aos.css?ver=1.4.3" rel="stylesheet" />
+    <link href="./css/bootstrap.min.css?ver=1.4.3" rel="stylesheet" />
+    <link href="./css/main.css?ver=1.4.3" rel="stylesheet" />
+    <link rel="manifest" href="manifest.json" />
+    <title>iggusti's page 😄</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" />
+    <noscript>
+      <style type="text/css">
+        [data-aos] {
+          opacity: 1 !important;
+          transform: translate(0) scale(1) !important;
+        }
+      </style>
+    </noscript>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ilham Gumantung Gusti",
+        "jobTitle": "Web Developer",
+        "url": "https://iggusti.github.io/curriculum-vitae/",
+        "image": "https://iggusti.github.io/curriculum-vitae/images/iggusti.webp",
+        "email": "mailto:iggusti@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Ciparay",
+          "addressLocality": "Bandung",
+          "addressCountry": "ID"
+        },
+        "sameAs": [
+          "https://github.com/iggusti",
+          "https://www.linkedin.com/in/iggusti",
+          "https://www.instagram.com/ilhamgg",
+          "https://twitter.com/iggusti",
+          "https://www.facebook.com/ilhamggusti"
+        ],
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Telkom University"
+        }
       }
-    </style>
-  </noscript>
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Ilham Gumantung Gusti",
-      "jobTitle": "Web Developer",
-      "url": "https://iggusti.github.io/curriculum-vitae/",
-      "image": "https://iggusti.github.io/curriculum-vitae/images/iggusti.webp",
-      "email": "mailto:iggusti@gmail.com",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Ciparay",
-        "addressLocality": "Bandung",
-        "addressCountry": "ID"
-      },
-      "sameAs": [
-        "https://github.com/iggusti",
-        "https://www.linkedin.com/in/iggusti",
-        "https://www.instagram.com/ilhamgg",
-        "https://twitter.com/iggusti",
-        "https://www.facebook.com/ilhamggusti"
-      ],
-      "worksFor": {
-        "@type": "Organization",
-        "name": "Telkom University"
-      }
-    }
-  </script>
-</head>
+    </script>
+    <script defer src="js/core/jquery.3.7.1.min.js?ver=1.4.3"></script>
+    <script defer src="js/core/popper.min.js?ver=1.4.3"></script>
+    <script defer src="js/core/bootstrap.min.js?ver=1.4.3"></script>
+    <script defer src="js/now-ui-kit.js?ver=1.4.3"></script>
+    <script defer src="js/aos.js?ver=1.4.3"></script>
+    <script defer src="scripts/main.js?ver=1.4.3"></script>
+  </head>
 
-<body id="top">
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header>
-    <div class="profile-page sidebar-collapse">
-      <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
-        <div class="container">
-          <div class="navbar-translate">
-            <a class="navbar-brand" href="./" rel="tooltip">IGGUSTI</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
-              aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-bar bar1"></span>
-              <span class="navbar-toggler-bar bar2"></span>
-              <span class="navbar-toggler-bar bar3"></span>
-            </button>
-          </div>
-          <div class="collapse navbar-collapse justify-content-end" id="navigation">
-            <ul class="navbar-nav">
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Skills</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
-  </header>
-  <main class="page-content" id="main" tabindex="-1">
-    <div class="profile-page">
-      <div class="wrapper">
-        <div class="page-header page-header-small" filter-color="green">
-          <div class="page-header-image" data-parallax="true"
-            style="background-image: url('./images/cc-bg-wadukan.webp')"></div>
+  <body id="top">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header>
+      <div class="profile-page sidebar-collapse">
+        <nav
+          class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary"
+          color-on-scroll="400"
+        >
           <div class="container">
-            <div class="content-center">
-              <div class="cc-profile-image"><a href="./"><img src="./images/iggusti.webp" alt="Ilham Gumantung Gusti"
-                    fetchpriority="high" width="525" height="525"></a>
-              </div>
-              <h1 class="h2 title">Ilham Gumantung Gusti</h1>
-              <p class="category text-white">👨‍💻 Web Developer, 🐥 Farmer</p>
-              <a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in"><i
-                  class="fa-solid fa-house mr-2" aria-hidden="true"></i>Contact Me</a>
-              <a class="btn btn-primary" data-aos="zoom-in" href="./pdf/iggusti%20cv.pdf"
-                download="iggusti cv.pdf"><i class="fa-solid fa-file-invoice mr-2" aria-hidden="true"></i>Download CV</a>
+            <div class="navbar-translate">
+              <a class="navbar-brand" href="./" rel="tooltip">IGGUSTI</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navigation"
+                aria-controls="navigation"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+              </button>
             </div>
-          </div>
-          <div class="section">
-            <div class="container">
-              <div class="button-container">
-                <a class="btn btn-default btn-round btn-lg btn-icon cc-facebook" aria-label="facebook"
-                  href="https://www.facebook.com/ilhamggusti" target="_blank" data-toggle="tooltip"
-                  rel="noopener noreferrer" title="Follow me on Facebook"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a>
-                <a class="btn btn-default btn-round btn-lg btn-icon cc-twitter" aria-label="twitter"
-                  href="https://twitter.com/iggusti" target="_blank" data-toggle="tooltip" rel="noopener noreferrer"
-                  title="Follow me on Twitter"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a>
-                <a class="btn btn-default btn-round btn-lg btn-icon cc-instagram" aria-label="instagram"
-                  href="https://www.instagram.com/ilhamgg" target="_blank" data-toggle="tooltip"
-                  rel="noopener noreferrer" title="Follow me on Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
-                <a class="btn btn-default btn-round btn-lg btn-icon cc-linkedin" aria-label="linkedin"
-                  href="https://www.linkedin.com/in/iggusti" target="_blank" data-toggle="tooltip"
-                  rel="noopener noreferrer" title="Follow me on LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="section" id="about">
-      <div class="container">
-        <div class="card" data-aos="fade-up" data-aos-offset="10">
-          <div class="row">
-            <div class="col-lg-6 col-md-12">
-              <div class="card-body">
-                <h2 class="h4 mt-0 title">About</h2>
-                <p>Hello! I am Ilham Gumantung Gusti.</p>
-                <p>I specialize in resolving technical problems in urgent situations as I am spontaneous, logical, and
-                  rational. I am action-oriented and able to adapt quickly to sudden changes. When working in a team, I
-                  am able to analyze, manage, and delegate tasks. I find inspiration from ideas, emotions, and memories.
-                  I prefer to make decisions based on facts and concrete data, using causal logic.</p>
-                <p>Web developer who loves the countryside. Coding and plowing, that's my life!</p>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-12">
-              <div class="card-body">
-                <h2 class="h4 mt-0 title">Basic Information</h2>
-                <div class="row">
-                  <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
-                  <div class="col-sm-8"><time id="age" datetime="1997-10-22"></time></div>
-                </div>
-                <div class="row mt-3">
-                  <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
-                  <div class="col-sm-8"><a href="mailto:iggusti@gmail.com">iggusti@gmail.com</a></div>
-                </div>
-                <div class="row mt-3">
-                  <div class="col-sm-4"><strong class="text-uppercase">Phone:</strong></div>
-                  <div class="col-sm-8">+62xxxxxxxxxxx</div>
-                </div>
-                <div class="row mt-3">
-                  <div class="col-sm-4"><strong class="text-uppercase">Address:</strong></div>
-                  <div class="col-sm-8">Ciparay, Bandung</div>
-                </div>
-                <div class="row mt-3">
-                  <div class="col-sm-4"><strong class="text-uppercase">Language:</strong></div>
-                  <div class="col-sm-8">🇮🇩 Indonesia, 🇺🇸 English-US</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="section" id="skill">
-      <div class="container">
-        <h2 class="h4 text-center mb-4 title">Professional Skills</h2>
-        <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-          <div class="card-body">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="progress-container progress-primary"><span class="progress-badge"><img
-                      src="./images/tailwind.webp" alt="" width="18"
-                      class="mr-1" loading="lazy" decoding="async" />Tailwind</span>
-                  <div class="progress">
-                    <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
-                      data-aos-duration="2000" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                      aria-valuemax="100" aria-label="Tailwind proficiency" style="width: 70%;"></div><span
-                      class="progress-value">70%</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="progress-container progress-primary"><span class="progress-badge"><i
-                      class="fa-brands fa-bootstrap mr-1 c-7710f1" aria-hidden="true"></i>Bootstrap</span>
-                  <div class="progress">
-                    <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
-                      data-aos-duration="2000" role="progressbar" aria-valuenow="95" aria-valuemin="0"
-                      aria-valuemax="100" aria-label="Bootstrap proficiency" style="width: 95%;">
-                    </div><span class="progress-value">95%</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6">
-                <div class="progress-container progress-primary"><span class="progress-badge"><i
-                      class="fa-brands fa-react mr-1 c-76d4f2" aria-hidden="true"></i>React</span>
-                  <div class="progress">
-                    <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
-                      data-aos-duration="2000" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-                      aria-valuemax="100" aria-label="React proficiency" style="width: 80%;"></div><span
-                      class="progress-value">80%</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="progress-container progress-primary"><span class="progress-badge"><i
-                      class="fa-brands fa-angular mr-1 c-d2002f" aria-hidden="true"></i>Angular</span>
-                  <div class="progress">
-                    <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
-                      data-aos-duration="2000" role="progressbar" aria-valuenow="95" aria-valuemin="0"
-                      aria-valuemax="100" aria-label="Angular proficiency" style="width: 95%;"></div><span
-                      class="progress-value">95%</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6">
-                <div class="progress-container progress-primary"><span class="progress-badge"><img
-                      src="./images/next-js.webp" alt="" width="18"
-                      class="mr-1" loading="lazy" decoding="async" />Next</span>
-                  <div class="progress">
-                    <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
-                      data-aos-duration="2000" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-                      aria-valuemax="100" aria-label="Next proficiency" style="width: 80%;"></div><span
-                      class="progress-value">80%</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="progress-container progress-primary"><span class="progress-badge"><i
-                      class="fa-brands fa-laravel mr-1 c-f22a1d" aria-hidden="true"></i>Laravel</span>
-                  <div class="progress">
-                    <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
-                      data-aos-duration="2000" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                      aria-valuemax="100" aria-label="Laravel proficiency" style="width: 90%;"></div><span
-                      class="progress-value">90%</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="section" id="experience">
-      <div class="container cc-experience">
-        <h2 class="h4 text-center mb-4 title">Work Experience</h2>
-        <div class="card">
-          <div class="row">
-            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body cc-experience-header">
-                <p>Aug 2021 - Present</p>
-                <div>
-                  <a class="h5 c-pointer c-aliceblue" href="https://situ-sps.telkomuniversity.ac.id/baso"
-                    target="_blank" title="Pembuatan Surat Online" rel="noopener noreferrer">BaSO</a>
-                </div>
-                <div>
-                  <a class="h5 c-pointer c-aliceblue" href="https://situ-sps.telkomuniversity.ac.id/emom"
-                    target="_blank" title="Electronic Minutes of Meeting" rel="noopener noreferrer">E-MoM</a>
-                </div>
-                <div>
-                  <a class="h5 c-pointer c-aliceblue" href="https://igracias.telkomuniversity.ac.id/"
-                    target="_blank" title="Regulation Information System" rel="noopener noreferrer">RIS IGracias</a>
-                </div>
-                <div>
-                  <a class="h5 c-pointer c-aliceblue" href="https://eis.telkomuniversity.ac.id/"
-                    target="_blank" title="Event Information System" rel="noopener noreferrer">EIS</a>
-                </div>
-                <div>
-                  <a class="h5 c-pointer c-aliceblue" href="https://onedata.usu.ac.id/#/auth/login"
-                    target="_blank" title="One Data Universitas Sumatera Utara" rel="noopener noreferrer">
-                    <img src="./images/logo-usu.webp" class="mr-2" style="margin-bottom: 4px;" alt=""
-                      width="20" loading="lazy" decoding="async" />One Data USU
-                  </a>
-                </div>
-                <div>
-                  <a class="h5 c-pointer c-aliceblue" href="https://soang.telkomuniversity.ac.id/"
-                    target="_blank" title="System of Administration and Governance" rel="noopener noreferrer">SOANG</a>
-                </div>
-                <div>
-                  <span class="h5 c-pointer c-aliceblue" title="Penelusuran Dokumen">PenDok</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body">
-                <div class="d-flex">
-                  <a aria-label="Telkom University website" class="c-pointer mt-2 ml-2" href="https://telkomuniversity.ac.id/" target="_blank"
-                    rel="noopener noreferrer">
-                    <img src="./images/telu_logo.webp" alt="" width="40" loading="lazy"
-                      decoding="async">
-                  </a>
-                  <div class="ml-3">
-                    <h3 class="h5">Front End Developer</h3>
-                    <div class="d-flex">
-                      <a href="https://telkomuniversity.ac.id/" target="_blank" rel="noopener noreferrer">
-                        <p class="category">Telkom University</p>
-                      </a>
-                      <p class="bg-default ml-2 p-1 pr-2 font-weight-bold job-time">☀️ Full Time</p>
-                    </div>
-                  </div>
-                </div>
-                <p>Converting raw data into a web page that can be read easily and interactively. Design and develop the
-                  user interface for web applications. This includes creating the layout, visual appearance, and overall
-                  user experience for the app. I work closely with designers and other developers to ensure that the
-                  interface is visually appealing and easy to use. I also troubleshoot and fix any bugs or issues that
-                  may arise in the user interface. Additionally, I am responsible for maintaining and improving the
-                  technical skills required for this role through continuous training and learning.</p>
-                <p>Tool :
-                  <i class="fa-brands fa-angular mx-1 c-d2002f" aria-hidden="true"></i>Angular ·
-                  <img src="./images/typescript.webp" alt="" width="17"
-                    class="mx-1" loading="lazy" decoding="async" />TypeScript ·
-                  <img src="./images/jquery.gif" alt="" width="14" class="mx-1" loading="lazy" decoding="async" />jQuery ·
-                  <img src="./images/codeigniter.webp" alt="" width="14"
-                    class="mx-1" loading="lazy" decoding="async" />CodeIgniter ·
-                  <img src="./images/igracias.webp" alt="" width="12"
-                    class="mx-1" loading="lazy" decoding="async" />iGracias Framework ·
-                  <i class="fa-brands fa-bootstrap mx-1 c-7710f1" aria-hidden="true"></i>Bootstrap.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="row">
-            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body cc-experience-header">
-                <p>Jan - Apr 2023</p>
-                <div>
-                  <a class="h5 c-pointer c-aliceblue" href="https://www.qarirlabs.com/"
-                    target="_blank" rel="noopener noreferrer">QarirLabs Web</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body">
-                <div class="d-flex">
-                  <a aria-label="Qarir Labs website" class="c-pointer mt-2 ml-2" href="https://www.qarirlabs.com/" target="_blank"
-                    rel="noopener noreferrer">
-                    <img src="./images/qarirlabs.webp" alt="" width="40" loading="lazy"
-                      decoding="async">
-                  </a>
-                  <div class="ml-3">
-                    <h3 class="h5">Jr. Web Developer</h3>
-                    <div class="d-flex">
-                      <a href="https://www.qarirlabs.com/" target="_blank" rel="noopener noreferrer">
-                        <p class="category">Qarir Labs</p>
-                      </a>
-                      <p class="bg-default ml-2 p-1 pr-2 font-weight-bold job-time">🌑 Part Time</p>
-                    </div>
-                  </div>
-                </div>
-                <p>To ensure that the information displayed on our company's landing page is up-to-date, we
-                  regularly perform updates. In addition, we also address any bugs that exist in our application to
-                  ensure that it functions optimally. Furthermore, we are constantly designing new applications to
-                  improve user experience and provide innovative solutions. Moreover, we also measure and
-                  analyzing the data from the user behavior to improve and optimize the performance of the
-                  application. And we strive to improve our customer service as well to ensure the best service for
-                  our customer.</p>
-                <p>Tool :
-                  <img src="./images/next-js.webp" alt="" width="14" class="mx-1" loading="lazy" decoding="async" />Next.js
-                  ·
-                  <img src="./images/typescript.webp" alt="" width="17"
-                    class="mx-1" loading="lazy" decoding="async" />TypeScript ·
-                  <img src="./images/tailwind.webp" alt="" width="17"
-                    class="mx-1" loading="lazy" decoding="async" />Tailwind CSS.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="row">
-            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body cc-experience-header">
-                <p>Feb - Aug 2021</p>
-                <div>
-                  <a class="h5 c-pointer c-aliceblue" href="https://igracias.telkomuniversity.ac.id/"
-                    target="_blank" rel="noopener noreferrer">PIS</a>
-                </div>
-                <div>
-                  <a class="h5 c-pointer c-aliceblue" href="https://igracias.telkomuniversity.ac.id/"
-                    target="_blank" rel="noopener noreferrer">Thesis Magister</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body">
-                <div class="d-flex">
-                  <a aria-label="Telkom University website" class="c-pointer mt-2 ml-2" href="https://telkomuniversity.ac.id/" target="_blank"
-                    rel="noopener noreferrer">
-                    <img src="./images/telu_logo.webp" alt="" width="40" loading="lazy"
-                      decoding="async">
-                  </a>
-                  <div class="ml-3">
-                    <h3 class="h5">Full Stack Developer</h3>
-                    <div class="d-flex">
-                      <a href="https://telkomuniversity.ac.id/" target="_blank" rel="noopener noreferrer">
-                        <p class="category">Telkom University</p>
-                      </a>
-                      <p class="bg-default ml-2 p-1 pr-2 font-weight-bold job-time">☀️ Full Time</p>
-                    </div>
-                  </div>
-                </div>
-                <p>Design, develop and modify web app. Creating Restfull API. Creating beauty page view. Analyze the
-                  need for application of content, graphics, work features, and capacity in the app. Integrate with
-                  other computer app. Fixing bugs. Make documentation. Ensure that the released app runs smoothly.</p>
-                <p>Tool :
-                  <i class="fa-brands fa-laravel mx-1 c-f22a1d" aria-hidden="true"></i>Laravel ·
-                  <img src="./images/lumen.svg" alt="" width="8" class="mx-1" loading="lazy" decoding="async" />Lumen ·
-                  <i class="fa-brands fa-angular mx-1 c-d2002f" aria-hidden="true"></i>Angular ·
-                  <img src="./images/igracias.webp" alt="" width="12"
-                    class="mx-1" loading="lazy" decoding="async" />iGracias Framework ·
-                  <img src="./images/oracle.webp" alt="" width="20" class="mx-1" loading="lazy" decoding="async" />Oracle.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="row">
-            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body cc-experience-header">
-                <p>Sep 2020 - Feb 2021</p>
-                <div>
-                  <a class="h5 c-pointer c-aliceblue" href="https://lms.telkomuniversity.ac.id/" target="_blank"
-                    title="Center of E-Learning and Open Education" rel="noopener noreferrer">CeLOE</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body">
-                <div class="d-flex">
-                  <a aria-label="Telkom University website" class="c-pointer mt-2 ml-2" href="https://telkomuniversity.ac.id/" target="_blank"
-                    rel="noopener noreferrer">
-                    <img src="./images/telu_logo.webp" alt="" width="40" loading="lazy"
-                      decoding="async">
-                  </a>
-                  <div class="ml-3">
-                    <h3 class="h5">Back End Developer</h3>
-                    <div class="d-flex">
-                      <a href="https://telkomuniversity.ac.id/" target="_blank" rel="noopener noreferrer">
-                        <p class="category">Telkom University</p>
-                      </a>
-                      <p class="bg-default ml-2 p-1 pr-2 font-weight-bold job-time">☀️ Full Time</p>
-                    </div>
-                  </div>
-                </div>
-                <p>Design, develop and modify web app. Creating Restfull API. Create Database Design. Analyze the need
-                  for application of content, graphics, work features, and capacity in the app. Integrate with other
-                  computer app. Fixing bugs. Make documentation. Ensure that the released app runs smoothly.</p>
-                <p>Tool :
-                  <i class="fa-brands fa-laravel mx-1 c-f22a1d" aria-hidden="true"></i>Laravel ·
-                  <img src="./images/lumen.svg" alt="" width="8" class="mx-1" loading="lazy" decoding="async" />Lumen ·
-                  <img src="./images/igracias.webp" alt="" width="12"
-                    class="mx-1" loading="lazy" decoding="async" />iGracias Framework ·
-                  <img src="./images/oracle.webp" alt="" width="20" class="mx-1" loading="lazy" decoding="async" />Oracle.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="row">
-            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body cc-experience-header">
-                <p>Mar - Jul 2020</p>
-                <div>
-                  <a class="h5 c-pointer c-aliceblue" href="http://www.kolegakapital.com/"
-                    target="_blank" rel="noopener noreferrer">DashBoard</a>
-                </div>
-                <div>
-                  <a class="h5 c-pointer c-aliceblue" href="http://www.kolegakapital.com/"
-                    target="_blank" rel="noopener noreferrer">PHP Unit Test</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body">
-                <div class="d-flex">
-                  <a aria-label="Kolega Kapital Indonesia on LinkedIn" class="c-pointer mt-3 ml-1" href="https://id.linkedin.com/company/pt-kolega-kapital-indonesia"
-                    target="_blank" rel="noopener noreferrer">
-                    <img src="./images/kolega_kapital_indonesia.webp" alt="" width="40"
-                      loading="lazy" decoding="async">
-                  </a>
-                  <div class="ml-3">
-                    <h3 class="h5">Back End Developer</h3>
-                    <div class="d-flex">
-                      <a href="https://id.linkedin.com/company/pt-kolega-kapital-indonesia" target="_blank" rel="noopener noreferrer">
-                        <p class="category">PT. Kolega Kapital Indonesia</p>
-                      </a>
-                      <p class="bg-default ml-2 p-1 pr-2 font-weight-bold job-time">☀️ Full Time</p>
-                    </div>
-                  </div>
-                </div>
-                <p>Design, develop and modify web app. Analyze the need for application of content, graphics, work
-                  features, and capacity in the app. Integrate with other computer app. Fix bugs. Build a framework or
-                  app architecture. Make documentation. Ensure that the released app runs smoothly. Perform testing of
-                  the app.</p>
-                <p>Tool :
-                  <i class="fa-brands fa-laravel mx-1 c-f22a1d" aria-hidden="true"></i>Laravel ·
-                  <i class="fa-brands fa-bootstrap mx-1 c-7710f1" aria-hidden="true"></i>Bootstrap ·
-                  <img src="./images/jquery.gif" alt="" width="14" class="mx-1" loading="lazy" decoding="async" />jQuery ·
-                  <img src="./images/semantic_ui.webp" alt="" width="14"
-                    class="mx-1" loading="lazy" decoding="async" />Semantic
-                  UI.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="row">
-            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body cc-experience-header">
-                <p>May - Jul 2018</p>
-                <div>
-                  <a class="h5 c-pointer c-aliceblue" href="https://www.telkom.co.id/" target="_blank"
-                    title="Corporate Costumer Access Network" rel="noopener noreferrer">CCAN</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body">
-                <div class="d-flex">
-                  <a aria-label="Telkom Indonesia website" class="c-pointer mt-2 ml-2" href="https://www.telkom.co.id/" target="_blank"
-                    rel="noopener noreferrer">
-                    <img src="./images/telkom-indonesia.svg" alt="" width="40"
-                      loading="lazy" decoding="async">
-                  </a>
-                  <div class="ml-3">
-                    <h3 class="h5">Student Intern</h3>
-                    <div class="d-flex">
-                      <a href="https://www.telkom.co.id/" target="_blank" rel="noopener noreferrer">
-                        <p class="category">PT. Telkom Indonesia (Persero) Tbk.</p>
-                      </a>
-                      <p class="bg-default ml-2 p-1 pr-2 font-weight-bold job-time">🌖 Internship</p>
-                    </div>
-                  </div>
-                </div>
-                <p>As a Student Intern of CCAN (Corporate Costumer Access Network) Division at Telkom Indonesia, West
-                  Jakarta Region.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="row">
-            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body cc-experience-header">
-                <p>May 2017 - Jun 2018</p>
-                <div>
-                  <a class="h5 c-pointer c-aliceblue" href="https://www.instagram.com/sea.laboratory/"
-                    target="_blank" rel="noopener noreferrer">Laboratory Assistant</a>
-                </div>
-                <div>
-                  <a class="h5 c-pointer c-aliceblue" href="https://www.instagram.com/sea.laboratory/"
-                    target="_blank" rel="noopener noreferrer">Study Group Mentor</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body">
-                <div class="d-flex">
-                  <a aria-label="SEA Laboratory on LinkedIn" class="c-pointer mt-2 ml-1" href="https://www.linkedin.com/company/sea-laboratory/"
-                    target="_blank" rel="noopener noreferrer">
-                    <img src="./images/sea-lab.webp" alt="" width="40" loading="lazy"
-                      decoding="async">
-                  </a>
-                  <div class="ml-3">
-                    <h3 class="h5">Assistant of SEA Laboratory</h3>
-                    <div class="d-flex">
-                      <a href="https://www.linkedin.com/company/sea-laboratory/" target="_blank" rel="noopener noreferrer">
-                        <p class="category">SEA Laboratory</p>
-                      </a>
-                      <p class="bg-default ml-2 p-1 pr-2 font-weight-bold job-time">🌑 Part Time</p>
-                    </div>
-                  </div>
-                </div>
-                <p>As a Laboratory Assistant of C++ Object-Oriented Programming and C Programming Algorithms at SEA
-                  (Software Engineering and Application) Laboratory. As a Study Group Mentor of Desktop Application
-                  Division using VB.NET Programming Language and Microsoft SQL Server at SEA (Software Engineering and
-                  Application) Laboratory.</p>
-                <p>Tool :
-                  <img src="./images/c++.webp" alt="" width="14" class="mx-1" loading="lazy" decoding="async" />C++ ·
-                  <img src="./images/c.webp" alt="" width="14" class="mx-1" loading="lazy" decoding="async" />C ·
-                  <img src="./images/ms-sql-server.webp" alt="" width="14"
-                    class="mx-1" loading="lazy" decoding="async" />Microsoft SQL Server ·
-                  <img src="./images/visual-basic.webp" alt="" width="18"
-                    class="mx-1" loading="lazy" decoding="async" />Visual
-                  Basic.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="row">
-            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body cc-experience-header">
-                <p>Jun - Jul 2017</p>
-                <div>
-                  <a class="h5 c-pointer c-aliceblue" href="https://bpjs-kesehatan.go.id/bpjs/"
-                    target="_blank" rel="noopener noreferrer">Marketing</a>
-                </div>
-                <div>
-                  <a class="h5 c-pointer c-aliceblue" href="https://bpjs-kesehatan.go.id/bpjs/"
-                    target="_blank" rel="noopener noreferrer">Participation</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body">
-                <div class="d-flex">
-                  <a aria-label="BPJS Kesehatan website" class="c-pointer mt-3 ml-2" href="https://bpjs-kesehatan.go.id/bpjs/" target="_blank"
-                    rel="noopener noreferrer">
-                    <img src="./images/bpjs-kesehatan.webp" alt="" width="40"
-                      loading="lazy" decoding="async">
-                  </a>
-                  <div class="ml-3">
-                    <h3 class="h5">Student Intern</h3>
-                    <div class="d-flex">
-                      <a href="https://bpjs-kesehatan.go.id/bpjs/" target="_blank" rel="noopener noreferrer">
-                        <p class="category">BPJS Kesehatan</p>
-                      </a>
-                      <p class="bg-default ml-2 p-1 pr-2 font-weight-bold job-time">🌖 Internship</p>
-                    </div>
-                  </div>
-                </div>
-                <p>As a Student Intern of Marketing and Participation Division at BPJS (Badan Penyelenggara Jaminan
-                  Sosial) Kesehatan, Cirebon City Region.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="section" id="education">
-      <div class="container cc-education">
-        <h2 class="h4 text-center mb-4 title">Education</h2>
-        <div class="card">
-          <div class="row">
-            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body cc-education-header">
-                <h3 class="h5">Master's Degree</h3>
-              </div>
-            </div>
-            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body cc-education-hopefully">
-                <h3 class="h5">Hopefully 😇</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="row">
-            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body cc-education-header">
-                <p>2015 - 2019</p>
-                <h3 class="h5">Bachelor's Degree</h3>
-              </div>
-            </div>
-            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body">
-                <div class="d-flex">
-                  <a aria-label="Telkom University website" class="c-pointer mt-2 ml-2" href="https://telkomuniversity.ac.id/" target="_blank"
-                    rel="noopener noreferrer">
-                    <img src="./images/telu_logo.webp" alt="" width="40" loading="lazy"
-                      decoding="async">
-                  </a>
-                  <div class="ml-3">
-                    <h3 class="h5">Computer Engineering</h3>
-                    <a href="https://telkomuniversity.ac.id/" target="_blank" rel="noopener noreferrer">
-                      <p class="category">Telkom University</p>
-                    </a>
-                  </div>
-                </div>
-                <p>Grade: 3.77</p>
-                <p>Activities and societies: SEA Laboratory, DnA, PCM, KOPMA, ACCESS</p>
-                <div class="mb-3">Studied Algorithms and Programming, Object Oriented Programming, Basic Software
-                  Engineering, Digital System Design, Computer Network and Data, Microprocessors and Interfaces,
-                  Computer System Security, Database Design, Operating System, Human Machine Interaction, Control System
-                  and Mechanics, Artificial Intelligent, Digital Signal Processing, Computer Organization, Coding and
-                  Compression, and Multimedia System.</div>
-                <p>With specialization Next Generation Network 🌐, Computer Forensics 🔍, Computer Vision 👁️, and
-                  Machine Learning 🤖.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="row">
-            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body cc-education-header">
-                <p>2012 - 2015</p>
-                <h3 class="h5">High School</h3>
-              </div>
-            </div>
-            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body">
-                <div class="d-flex">
-                  <a aria-label="SMAN 1 Cirebon on LinkedIn" class="c-pointer mt-2 ml-2" href="https://www.linkedin.com/school/smansacrb/" target="_blank"
-                    rel="noopener noreferrer">
-                    <img src="./images/smansa_crb.webp" alt="" width="40" loading="lazy"
-                      decoding="async">
-                  </a>
-                  <div class="ml-3">
-                    <h3 class="h5">Science and Mathematics</h3>
-                    <a href="https://www.linkedin.com/school/smansacrb/" target="_blank" rel="noopener noreferrer">
-                      <p class="category">SMA Negeri 1 Cirebon</p>
-                    </a>
-                    <p></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="section" id="portfolio">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 ml-auto mr-auto">
-            <h2 class="h4 text-center mb-4 title">Portfolio</h2>
-            <div class="nav-align-center">
-              <ul class="nav nav-pills nav-pills-primary" role="tablist">
-                <li class="nav-item" role="presentation">
-                  <a class="nav-link active" id="web-development-tab" data-toggle="tab" href="#web-development"
-                    role="tab" aria-controls="web-development" aria-selected="true" aria-label="web-development">
-                    <i class="fa-solid fa-laptop" aria-hidden="true"></i>
-                  </a>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navigation"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link smooth-scroll" href="#about">About</a>
                 </li>
-                <li class="nav-item" role="presentation">
-                  <a class="nav-link" id="photography-tab" data-toggle="tab" href="#photography" role="tab"
-                    aria-controls="photography" aria-selected="false" aria-label="photography">
-                    <i class="fa-solid fa-camera" aria-hidden="true"></i>
-                  </a>
+                <li class="nav-item">
+                  <a class="nav-link smooth-scroll" href="#skill">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link smooth-scroll" href="#experience"
+                    >Experience</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link smooth-scroll" href="#portfolio"
+                    >Portfolio</a
+                  >
                 </li>
               </ul>
             </div>
           </div>
-        </div>
-        <div class="tab-content gallery mt-5">
-          <div class="tab-pane active" id="web-development" role="tabpanel" aria-labelledby="web-development-tab">
-            <div class="ml-auto mr-auto">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <a href="./portfolio/clock.html">
-                      <figure class="cc-effect"><img src="./images/clock.webp" alt="Clock project preview" loading="lazy" decoding="async" width="1920" height="854">
-                        <figcaption>
-                          <div class="h4">Clock</div>
-                          <p></p>
-                        </figcaption>
-                      </figure>
-                    </a>
-                  </div>
-                  <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <a href="./portfolio/bima-sakti.html">
-                      <figure class="cc-effect"><img src="./images/bima-sakti.webp" alt="Bima Sakti project preview" loading="lazy" decoding="async" width="1914" height="856">
-                        <figcaption>
-                          <div class="h4">Bima Sakti</div>
-                          <p></p>
-                        </figcaption>
-                      </figure>
-                    </a>
-                  </div>
-                  <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <a href="./portfolio/gelinding.html">
-                      <figure class="cc-effect"><img src="./images/gelinding.webp" alt="Gelinding project preview" loading="lazy" decoding="async" width="1920" height="865">
-                        <figcaption>
-                          <div class="h4">Gelinding</div>
-                          <p></p>
-                        </figcaption>
-                      </figure>
-                    </a>
-                  </div>
-                  <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <a href="./portfolio/aquarium.html">
-                      <figure class="cc-effect"><img src="./images/aquarium.webp" alt="Aquarium project preview" loading="lazy" decoding="async" width="1920" height="855">
-                        <figcaption>
-                          <div class="h4">Aquarium</div>
-                          <p></p>
-                        </figcaption>
-                      </figure>
-                    </a>
-                  </div>
+        </nav>
+      </div>
+    </header>
+    <main class="page-content" id="main" tabindex="-1">
+      <div class="profile-page">
+        <div class="wrapper">
+          <div class="page-header page-header-small" filter-color="green">
+            <div
+              class="page-header-image"
+              data-parallax="true"
+              style="
+                background-image: url(&quot;./images/cc-bg-wadukan.webp&quot;);
+              "
+            ></div>
+            <div class="container">
+              <div class="content-center">
+                <div class="cc-profile-image">
+                  <a href="./"
+                    ><img
+                      src="./images/iggusti.webp"
+                      srcset="
+                        ./images/iggusti-150.webp 150w,
+                        ./images/iggusti.webp     300w
+                      "
+                      sizes="150px"
+                      alt="Ilham Gumantung Gusti"
+                      fetchpriority="high"
+                      width="180"
+                      height="180"
+                  /></a>
                 </div>
-                <div class="col-md-6">
-                  <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <a href="./portfolio/stack.html">
-                      <figure class="cc-effect"><img src="./images/stack.webp" alt="Stack project preview" loading="lazy" decoding="async" width="1920" height="858">
-                        <figcaption>
-                          <div class="h4">Stack</div>
-                          <p></p>
-                        </figcaption>
-                      </figure>
-                    </a>
-                  </div>
-                  <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <a href="./portfolio/sini.html">
-                      <figure class="cc-effect"><img src="./images/sini.webp" alt="Sini project preview" loading="lazy" decoding="async" width="1920" height="857">
-                        <figcaption>
-                          <div class="h4">Sini</div>
-                          <p></p>
-                        </figcaption>
-                      </figure>
-                    </a>
-                  </div>
-                  <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <a href="./portfolio/love-cube.html">
-                      <figure class="cc-effect"><img src="./images/love-cube.webp" alt="Love Cube project preview" loading="lazy" decoding="async" width="1920" height="862">
-                        <figcaption>
-                          <div class="h4">Love Cube</div>
-                          <p></p>
-                        </figcaption>
-                      </figure>
-                    </a>
-                  </div>
-                  <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <a href="./portfolio/keyboard.html">
-                      <figure class="cc-effect"><img src="./images/keyboard.webp" alt="Keyboard project preview" loading="lazy" decoding="async" width="1920" height="855">
-                        <figcaption>
-                          <div class="h4">Press Your Keyboard</div>
-                          <p></p>
-                        </figcaption>
-                      </figure>
-                    </a>
-                  </div>
+                <h1 class="h2 title">Ilham Gumantung Gusti</h1>
+                <p class="category text-white">👨‍💻 Web Developer, 🐥 Farmer</p>
+                <a
+                  class="btn btn-primary smooth-scroll mr-2"
+                  href="#contact"
+                  data-aos="zoom-in"
+                  ><i class="fa-solid fa-house mr-2" aria-hidden="true"></i
+                  >Contact Me</a
+                >
+                <a
+                  class="btn btn-primary"
+                  data-aos="zoom-in"
+                  href="./pdf/iggusti%20cv.pdf"
+                  download="iggusti cv.pdf"
+                  ><i
+                    class="fa-solid fa-file-invoice mr-2"
+                    aria-hidden="true"
+                  ></i
+                  >Download CV</a
+                >
+              </div>
+            </div>
+            <div class="section">
+              <div class="container">
+                <div class="button-container">
+                  <a
+                    class="btn btn-default btn-round btn-lg btn-icon cc-facebook"
+                    aria-label="facebook"
+                    href="https://www.facebook.com/ilhamggusti"
+                    target="_blank"
+                    data-toggle="tooltip"
+                    rel="noopener noreferrer"
+                    title="Follow me on Facebook"
+                    ><i class="fa-brands fa-facebook" aria-hidden="true"></i
+                  ></a>
+                  <a
+                    class="btn btn-default btn-round btn-lg btn-icon cc-twitter"
+                    aria-label="twitter"
+                    href="https://twitter.com/iggusti"
+                    target="_blank"
+                    data-toggle="tooltip"
+                    rel="noopener noreferrer"
+                    title="Follow me on Twitter"
+                    ><i class="fa-brands fa-twitter" aria-hidden="true"></i
+                  ></a>
+                  <a
+                    class="btn btn-default btn-round btn-lg btn-icon cc-instagram"
+                    aria-label="instagram"
+                    href="https://www.instagram.com/ilhamgg"
+                    target="_blank"
+                    data-toggle="tooltip"
+                    rel="noopener noreferrer"
+                    title="Follow me on Instagram"
+                    ><i class="fa-brands fa-instagram" aria-hidden="true"></i
+                  ></a>
+                  <a
+                    class="btn btn-default btn-round btn-lg btn-icon cc-linkedin"
+                    aria-label="linkedin"
+                    href="https://www.linkedin.com/in/iggusti"
+                    target="_blank"
+                    data-toggle="tooltip"
+                    rel="noopener noreferrer"
+                    title="Follow me on LinkedIn"
+                    ><i class="fa-brands fa-linkedin" aria-hidden="true"></i
+                  ></a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="tab-pane" id="photography" role="tabpanel" aria-labelledby="photography-tab">
-            <div class="ml-auto mr-auto">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <figure class="cc-effect"><img src="./images/cikawung-terisi.webp" alt="Photoshoot at Cikawung" decoding="async" width="800" height="400" loading="lazy">
-                      <figcaption>
-                        <div class="h4">Photoshoot</div>
-                        <p>Photography</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                  <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <figure class="cc-effect"><img src="./images/waduk-cipancuh.webp" alt="Cipancuh reservoir" decoding="async" width="800" height="1005" loading="lazy">
-                      <figcaption>
-                        <div class="h4">Nature Photoshoot</div>
-                        <p>Photography</p>
-                      </figcaption>
-                    </figure>
-                  </div>
-                  <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <figure class="cc-effect"><img src="./images/rumput.webp" alt="Grass and plants" decoding="async" width="640" height="482" loading="lazy">
-                      <figcaption>
-                        <div class="h4">Random Photoshoot</div>
-                        <p>Photography</p>
-                      </figcaption>
-                    </figure>
-                  </div>
+        </div>
+      </div>
+      <div class="section" id="about">
+        <div class="container">
+          <div class="card" data-aos="fade-up" data-aos-offset="10">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <div class="card-body">
+                  <h2 class="h4 mt-0 title">About</h2>
+                  <p>Hello! I am Ilham Gumantung Gusti.</p>
+                  <p>
+                    I specialize in resolving technical problems in urgent
+                    situations as I am spontaneous, logical, and rational. I am
+                    action-oriented and able to adapt quickly to sudden changes.
+                    When working in a team, I am able to analyze, manage, and
+                    delegate tasks. I find inspiration from ideas, emotions, and
+                    memories. I prefer to make decisions based on facts and
+                    concrete data, using causal logic.
+                  </p>
+                  <p>
+                    Web developer who loves the countryside. Coding and plowing,
+                    that's my life!
+                  </p>
                 </div>
-                <div class="col-md-6">
-                  <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <figure class="cc-effect"><img src="./images/jakarta-barat.webp" alt="Street in Jakarta Barat" decoding="async" width="560" height="560" loading="lazy">
-                      <figcaption>
-                        <div class="h4">Street Photoshoot</div>
-                        <p>Photography</p>
-                      </figcaption>
-                    </figure>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="card-body">
+                  <h2 class="h4 mt-0 title">Basic Information</h2>
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">Age:</strong>
+                    </div>
+                    <div class="col-sm-8">
+                      <time id="age" datetime="1997-10-22"></time>
+                    </div>
                   </div>
-                  <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <figure class="cc-effect"><img src="./images/telaga-biru-cicerep.webp"
-                        alt="Telaga Biru Cicerep" decoding="async" width="720" height="1107" loading="lazy">
-                      <figcaption>
-                        <div class="h4">Destination Photoshoot</div>
-                        <p>Photography</p>
-                      </figcaption>
-                    </figure>
+                  <div class="row mt-3">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">Email:</strong>
+                    </div>
+                    <div class="col-sm-8">
+                      <a href="mailto:iggusti@gmail.com">iggusti@gmail.com</a>
+                    </div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">Phone:</strong>
+                    </div>
+                    <div class="col-sm-8">+62xxxxxxxxxxx</div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">Address:</strong>
+                    </div>
+                    <div class="col-sm-8">Ciparay, Bandung</div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">Language:</strong>
+                    </div>
+                    <div class="col-sm-8">🇮🇩 Indonesia, 🇺🇸 English-US</div>
                   </div>
                 </div>
               </div>
@@ -916,193 +365,1981 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="section" id="journal">
-      <div class="container">
-        <h2 class="h4 mb-4 text-center title">Journal</h2>
-        <div class="card" data-aos="fade-up" data-aos-offset="10">
+      <div class="section" id="skill">
+        <div class="container">
+          <h2 class="h4 text-center mb-4 title">Professional Skills</h2>
+          <div
+            class="card"
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+          >
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge"
+                      ><img
+                        src="./images/tailwind.webp"
+                        alt=""
+                        width="18"
+                        class="mr-1"
+                        loading="lazy"
+                        decoding="async"
+                        height="18"
+                      />Tailwind</span
+                    >
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-primary"
+                        data-aos="progress-full"
+                        data-aos-offset="10"
+                        data-aos-duration="2000"
+                        role="progressbar"
+                        aria-valuenow="70"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        aria-label="Tailwind proficiency"
+                        style="width: 70%"
+                      ></div>
+                      <span class="progress-value">70%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge"
+                      ><i
+                        class="fa-brands fa-bootstrap mr-1 c-7710f1"
+                        aria-hidden="true"
+                      ></i
+                      >Bootstrap</span
+                    >
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-primary"
+                        data-aos="progress-full"
+                        data-aos-offset="10"
+                        data-aos-duration="2000"
+                        role="progressbar"
+                        aria-valuenow="95"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        aria-label="Bootstrap proficiency"
+                        style="width: 95%"
+                      ></div>
+                      <span class="progress-value">95%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge"
+                      ><i
+                        class="fa-brands fa-react mr-1 c-76d4f2"
+                        aria-hidden="true"
+                      ></i
+                      >React</span
+                    >
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-primary"
+                        data-aos="progress-full"
+                        data-aos-offset="10"
+                        data-aos-duration="2000"
+                        role="progressbar"
+                        aria-valuenow="80"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        aria-label="React proficiency"
+                        style="width: 80%"
+                      ></div>
+                      <span class="progress-value">80%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge"
+                      ><i
+                        class="fa-brands fa-angular mr-1 c-d2002f"
+                        aria-hidden="true"
+                      ></i
+                      >Angular</span
+                    >
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-primary"
+                        data-aos="progress-full"
+                        data-aos-offset="10"
+                        data-aos-duration="2000"
+                        role="progressbar"
+                        aria-valuenow="95"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        aria-label="Angular proficiency"
+                        style="width: 95%"
+                      ></div>
+                      <span class="progress-value">95%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge"
+                      ><img
+                        src="./images/next-js.webp"
+                        alt=""
+                        width="18"
+                        class="mr-1"
+                        loading="lazy"
+                        decoding="async"
+                        height="18"
+                      />Next</span
+                    >
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-primary"
+                        data-aos="progress-full"
+                        data-aos-offset="10"
+                        data-aos-duration="2000"
+                        role="progressbar"
+                        aria-valuenow="80"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        aria-label="Next proficiency"
+                        style="width: 80%"
+                      ></div>
+                      <span class="progress-value">80%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge"
+                      ><i
+                        class="fa-brands fa-laravel mr-1 c-f22a1d"
+                        aria-hidden="true"
+                      ></i
+                      >Laravel</span
+                    >
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-primary"
+                        data-aos="progress-full"
+                        data-aos-offset="10"
+                        data-aos-duration="2000"
+                        role="progressbar"
+                        aria-valuenow="90"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        aria-label="Laravel proficiency"
+                        style="width: 90%"
+                      ></div>
+                      <span class="progress-value">90%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="experience">
+        <div class="container cc-experience">
+          <h2 class="h4 text-center mb-4 title">Work Experience</h2>
+          <div class="card">
+            <div class="row">
+              <div
+                class="col-md-3 bg-primary"
+                data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body cc-experience-header">
+                  <p>Aug 2021 - Present</p>
+                  <div>
+                    <a
+                      class="h5 c-pointer c-aliceblue"
+                      href="https://situ-sps.telkomuniversity.ac.id/baso"
+                      target="_blank"
+                      title="Pembuatan Surat Online"
+                      rel="noopener noreferrer"
+                      >BaSO</a
+                    >
+                  </div>
+                  <div>
+                    <a
+                      class="h5 c-pointer c-aliceblue"
+                      href="https://situ-sps.telkomuniversity.ac.id/emom"
+                      target="_blank"
+                      title="Electronic Minutes of Meeting"
+                      rel="noopener noreferrer"
+                      >E-MoM</a
+                    >
+                  </div>
+                  <div>
+                    <a
+                      class="h5 c-pointer c-aliceblue"
+                      href="https://igracias.telkomuniversity.ac.id/"
+                      target="_blank"
+                      title="Regulation Information System"
+                      rel="noopener noreferrer"
+                      >RIS IGracias</a
+                    >
+                  </div>
+                  <div>
+                    <a
+                      class="h5 c-pointer c-aliceblue"
+                      href="https://eis.telkomuniversity.ac.id/"
+                      target="_blank"
+                      title="Event Information System"
+                      rel="noopener noreferrer"
+                      >EIS</a
+                    >
+                  </div>
+                  <div>
+                    <a
+                      class="h5 c-pointer c-aliceblue"
+                      href="https://onedata.usu.ac.id/#/auth/login"
+                      target="_blank"
+                      title="One Data Universitas Sumatera Utara"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        src="./images/logo-usu.webp"
+                        class="mr-2"
+                        style="margin-bottom: 4px"
+                        alt=""
+                        width="20"
+                        loading="lazy"
+                        decoding="async"
+                        height="20"
+                      />One Data USU
+                    </a>
+                  </div>
+                  <div>
+                    <a
+                      class="h5 c-pointer c-aliceblue"
+                      href="https://soang.telkomuniversity.ac.id/"
+                      target="_blank"
+                      title="System of Administration and Governance"
+                      rel="noopener noreferrer"
+                      >SOANG</a
+                    >
+                  </div>
+                  <div>
+                    <span
+                      class="h5 c-pointer c-aliceblue"
+                      title="Penelusuran Dokumen"
+                      >PenDok</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-9"
+                data-aos="fade-left"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body">
+                  <div class="d-flex">
+                    <a
+                      aria-label="Telkom University website"
+                      class="c-pointer mt-2 ml-2"
+                      href="https://telkomuniversity.ac.id/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        src="./images/telu_logo.webp"
+                        alt=""
+                        width="40"
+                        loading="lazy"
+                        decoding="async"
+                        height="49"
+                      />
+                    </a>
+                    <div class="ml-3">
+                      <h3 class="h5">Front End Developer</h3>
+                      <div class="d-flex">
+                        <a
+                          href="https://telkomuniversity.ac.id/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <p class="category">Telkom University</p>
+                        </a>
+                        <p
+                          class="bg-default ml-2 p-1 pr-2 font-weight-bold job-time"
+                        >
+                          ☀️ Full Time
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                    Converting raw data into a web page that can be read easily
+                    and interactively. Design and develop the user interface for
+                    web applications. This includes creating the layout, visual
+                    appearance, and overall user experience for the app. I work
+                    closely with designers and other developers to ensure that
+                    the interface is visually appealing and easy to use. I also
+                    troubleshoot and fix any bugs or issues that may arise in
+                    the user interface. Additionally, I am responsible for
+                    maintaining and improving the technical skills required for
+                    this role through continuous training and learning.
+                  </p>
+                  <p>
+                    Tool :
+                    <i
+                      class="fa-brands fa-angular mx-1 c-d2002f"
+                      aria-hidden="true"
+                    ></i
+                    >Angular ·
+                    <img
+                      src="./images/typescript.webp"
+                      alt=""
+                      width="17"
+                      class="mx-1"
+                      loading="lazy"
+                      decoding="async"
+                      height="17"
+                    />TypeScript ·
+                    <img
+                      src="./images/jquery.gif"
+                      alt=""
+                      width="14"
+                      class="mx-1"
+                      loading="lazy"
+                      decoding="async"
+                      height="14"
+                    />jQuery ·
+                    <img
+                      src="./images/codeigniter.webp"
+                      alt=""
+                      width="14"
+                      class="mx-1"
+                      loading="lazy"
+                      decoding="async"
+                      height="17"
+                    />CodeIgniter ·
+                    <img
+                      src="./images/igracias.webp"
+                      alt=""
+                      width="12"
+                      class="mx-1"
+                      loading="lazy"
+                      decoding="async"
+                      height="11"
+                    />iGracias Framework ·
+                    <i
+                      class="fa-brands fa-bootstrap mx-1 c-7710f1"
+                      aria-hidden="true"
+                    ></i
+                    >Bootstrap.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row">
+              <div
+                class="col-md-3 bg-primary"
+                data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body cc-experience-header">
+                  <p>Jan - Apr 2023</p>
+                  <div>
+                    <a
+                      class="h5 c-pointer c-aliceblue"
+                      href="https://www.qarirlabs.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >QarirLabs Web</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-9"
+                data-aos="fade-left"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body">
+                  <div class="d-flex">
+                    <a
+                      aria-label="Qarir Labs website"
+                      class="c-pointer mt-2 ml-2"
+                      href="https://www.qarirlabs.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        src="./images/qarirlabs.webp"
+                        alt=""
+                        width="40"
+                        loading="lazy"
+                        decoding="async"
+                        height="40"
+                      />
+                    </a>
+                    <div class="ml-3">
+                      <h3 class="h5">Jr. Web Developer</h3>
+                      <div class="d-flex">
+                        <a
+                          href="https://www.qarirlabs.com/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <p class="category">Qarir Labs</p>
+                        </a>
+                        <p
+                          class="bg-default ml-2 p-1 pr-2 font-weight-bold job-time"
+                        >
+                          🌑 Part Time
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                    To ensure that the information displayed on our company's
+                    landing page is up-to-date, we regularly perform updates. In
+                    addition, we also address any bugs that exist in our
+                    application to ensure that it functions optimally.
+                    Furthermore, we are constantly designing new applications to
+                    improve user experience and provide innovative solutions.
+                    Moreover, we also measure and analyzing the data from the
+                    user behavior to improve and optimize the performance of the
+                    application. And we strive to improve our customer service
+                    as well to ensure the best service for our customer.
+                  </p>
+                  <p>
+                    Tool :
+                    <img
+                      src="./images/next-js.webp"
+                      alt=""
+                      width="14"
+                      class="mx-1"
+                      loading="lazy"
+                      decoding="async"
+                      height="14"
+                    />Next.js ·
+                    <img
+                      src="./images/typescript.webp"
+                      alt=""
+                      width="17"
+                      class="mx-1"
+                      loading="lazy"
+                      decoding="async"
+                      height="17"
+                    />TypeScript ·
+                    <img
+                      src="./images/tailwind.webp"
+                      alt=""
+                      width="17"
+                      class="mx-1"
+                      loading="lazy"
+                      decoding="async"
+                      height="17"
+                    />Tailwind CSS.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row">
+              <div
+                class="col-md-3 bg-primary"
+                data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body cc-experience-header">
+                  <p>Feb - Aug 2021</p>
+                  <div>
+                    <a
+                      class="h5 c-pointer c-aliceblue"
+                      href="https://igracias.telkomuniversity.ac.id/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >PIS</a
+                    >
+                  </div>
+                  <div>
+                    <a
+                      class="h5 c-pointer c-aliceblue"
+                      href="https://igracias.telkomuniversity.ac.id/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Thesis Magister</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-9"
+                data-aos="fade-left"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body">
+                  <div class="d-flex">
+                    <a
+                      aria-label="Telkom University website"
+                      class="c-pointer mt-2 ml-2"
+                      href="https://telkomuniversity.ac.id/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        src="./images/telu_logo.webp"
+                        alt=""
+                        width="40"
+                        loading="lazy"
+                        decoding="async"
+                        height="49"
+                      />
+                    </a>
+                    <div class="ml-3">
+                      <h3 class="h5">Full Stack Developer</h3>
+                      <div class="d-flex">
+                        <a
+                          href="https://telkomuniversity.ac.id/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <p class="category">Telkom University</p>
+                        </a>
+                        <p
+                          class="bg-default ml-2 p-1 pr-2 font-weight-bold job-time"
+                        >
+                          ☀️ Full Time
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                    Design, develop and modify web app. Creating Restfull API.
+                    Creating beauty page view. Analyze the need for application
+                    of content, graphics, work features, and capacity in the
+                    app. Integrate with other computer app. Fixing bugs. Make
+                    documentation. Ensure that the released app runs smoothly.
+                  </p>
+                  <p>
+                    Tool :
+                    <i
+                      class="fa-brands fa-laravel mx-1 c-f22a1d"
+                      aria-hidden="true"
+                    ></i
+                    >Laravel ·
+                    <img
+                      src="./images/lumen.svg"
+                      alt=""
+                      width="8"
+                      class="mx-1"
+                      loading="lazy"
+                      decoding="async"
+                      height="16"
+                    />Lumen ·
+                    <i
+                      class="fa-brands fa-angular mx-1 c-d2002f"
+                      aria-hidden="true"
+                    ></i
+                    >Angular ·
+                    <img
+                      src="./images/igracias.webp"
+                      alt=""
+                      width="12"
+                      class="mx-1"
+                      loading="lazy"
+                      decoding="async"
+                      height="11"
+                    />iGracias Framework ·
+                    <img
+                      src="./images/oracle.webp"
+                      alt=""
+                      width="20"
+                      class="mx-1"
+                      loading="lazy"
+                      decoding="async"
+                      height="20"
+                    />Oracle.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row">
+              <div
+                class="col-md-3 bg-primary"
+                data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body cc-experience-header">
+                  <p>Sep 2020 - Feb 2021</p>
+                  <div>
+                    <a
+                      class="h5 c-pointer c-aliceblue"
+                      href="https://lms.telkomuniversity.ac.id/"
+                      target="_blank"
+                      title="Center of E-Learning and Open Education"
+                      rel="noopener noreferrer"
+                      >CeLOE</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-9"
+                data-aos="fade-left"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body">
+                  <div class="d-flex">
+                    <a
+                      aria-label="Telkom University website"
+                      class="c-pointer mt-2 ml-2"
+                      href="https://telkomuniversity.ac.id/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        src="./images/telu_logo.webp"
+                        alt=""
+                        width="40"
+                        loading="lazy"
+                        decoding="async"
+                        height="49"
+                      />
+                    </a>
+                    <div class="ml-3">
+                      <h3 class="h5">Back End Developer</h3>
+                      <div class="d-flex">
+                        <a
+                          href="https://telkomuniversity.ac.id/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <p class="category">Telkom University</p>
+                        </a>
+                        <p
+                          class="bg-default ml-2 p-1 pr-2 font-weight-bold job-time"
+                        >
+                          ☀️ Full Time
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                    Design, develop and modify web app. Creating Restfull API.
+                    Create Database Design. Analyze the need for application of
+                    content, graphics, work features, and capacity in the app.
+                    Integrate with other computer app. Fixing bugs. Make
+                    documentation. Ensure that the released app runs smoothly.
+                  </p>
+                  <p>
+                    Tool :
+                    <i
+                      class="fa-brands fa-laravel mx-1 c-f22a1d"
+                      aria-hidden="true"
+                    ></i
+                    >Laravel ·
+                    <img
+                      src="./images/lumen.svg"
+                      alt=""
+                      width="8"
+                      class="mx-1"
+                      loading="lazy"
+                      decoding="async"
+                      height="16"
+                    />Lumen ·
+                    <img
+                      src="./images/igracias.webp"
+                      alt=""
+                      width="12"
+                      class="mx-1"
+                      loading="lazy"
+                      decoding="async"
+                      height="11"
+                    />iGracias Framework ·
+                    <img
+                      src="./images/oracle.webp"
+                      alt=""
+                      width="20"
+                      class="mx-1"
+                      loading="lazy"
+                      decoding="async"
+                      height="20"
+                    />Oracle.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row">
+              <div
+                class="col-md-3 bg-primary"
+                data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body cc-experience-header">
+                  <p>Mar - Jul 2020</p>
+                  <div>
+                    <a
+                      class="h5 c-pointer c-aliceblue"
+                      href="http://www.kolegakapital.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >DashBoard</a
+                    >
+                  </div>
+                  <div>
+                    <a
+                      class="h5 c-pointer c-aliceblue"
+                      href="http://www.kolegakapital.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >PHP Unit Test</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-9"
+                data-aos="fade-left"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body">
+                  <div class="d-flex">
+                    <a
+                      aria-label="Kolega Kapital Indonesia on LinkedIn"
+                      class="c-pointer mt-3 ml-1"
+                      href="https://id.linkedin.com/company/pt-kolega-kapital-indonesia"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        src="./images/kolega_kapital_indonesia.webp"
+                        alt=""
+                        width="40"
+                        loading="lazy"
+                        decoding="async"
+                        height="21"
+                      />
+                    </a>
+                    <div class="ml-3">
+                      <h3 class="h5">Back End Developer</h3>
+                      <div class="d-flex">
+                        <a
+                          href="https://id.linkedin.com/company/pt-kolega-kapital-indonesia"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <p class="category">PT. Kolega Kapital Indonesia</p>
+                        </a>
+                        <p
+                          class="bg-default ml-2 p-1 pr-2 font-weight-bold job-time"
+                        >
+                          ☀️ Full Time
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                    Design, develop and modify web app. Analyze the need for
+                    application of content, graphics, work features, and
+                    capacity in the app. Integrate with other computer app. Fix
+                    bugs. Build a framework or app architecture. Make
+                    documentation. Ensure that the released app runs smoothly.
+                    Perform testing of the app.
+                  </p>
+                  <p>
+                    Tool :
+                    <i
+                      class="fa-brands fa-laravel mx-1 c-f22a1d"
+                      aria-hidden="true"
+                    ></i
+                    >Laravel ·
+                    <i
+                      class="fa-brands fa-bootstrap mx-1 c-7710f1"
+                      aria-hidden="true"
+                    ></i
+                    >Bootstrap ·
+                    <img
+                      src="./images/jquery.gif"
+                      alt=""
+                      width="14"
+                      class="mx-1"
+                      loading="lazy"
+                      decoding="async"
+                      height="14"
+                    />jQuery ·
+                    <img
+                      src="./images/semantic_ui.webp"
+                      alt=""
+                      width="14"
+                      class="mx-1"
+                      loading="lazy"
+                      decoding="async"
+                      height="14"
+                    />Semantic UI.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row">
+              <div
+                class="col-md-3 bg-primary"
+                data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body cc-experience-header">
+                  <p>May - Jul 2018</p>
+                  <div>
+                    <a
+                      class="h5 c-pointer c-aliceblue"
+                      href="https://www.telkom.co.id/"
+                      target="_blank"
+                      title="Corporate Costumer Access Network"
+                      rel="noopener noreferrer"
+                      >CCAN</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-9"
+                data-aos="fade-left"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body">
+                  <div class="d-flex">
+                    <a
+                      aria-label="Telkom Indonesia website"
+                      class="c-pointer mt-2 ml-2"
+                      href="https://www.telkom.co.id/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        src="./images/telkom-indonesia.svg"
+                        alt=""
+                        width="40"
+                        loading="lazy"
+                        decoding="async"
+                        height="27"
+                      />
+                    </a>
+                    <div class="ml-3">
+                      <h3 class="h5">Student Intern</h3>
+                      <div class="d-flex">
+                        <a
+                          href="https://www.telkom.co.id/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <p class="category">
+                            PT. Telkom Indonesia (Persero) Tbk.
+                          </p>
+                        </a>
+                        <p
+                          class="bg-default ml-2 p-1 pr-2 font-weight-bold job-time"
+                        >
+                          🌖 Internship
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                    As a Student Intern of CCAN (Corporate Costumer Access
+                    Network) Division at Telkom Indonesia, West Jakarta Region.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row">
+              <div
+                class="col-md-3 bg-primary"
+                data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body cc-experience-header">
+                  <p>May 2017 - Jun 2018</p>
+                  <div>
+                    <a
+                      class="h5 c-pointer c-aliceblue"
+                      href="https://www.instagram.com/sea.laboratory/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Laboratory Assistant</a
+                    >
+                  </div>
+                  <div>
+                    <a
+                      class="h5 c-pointer c-aliceblue"
+                      href="https://www.instagram.com/sea.laboratory/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Study Group Mentor</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-9"
+                data-aos="fade-left"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body">
+                  <div class="d-flex">
+                    <a
+                      aria-label="SEA Laboratory on LinkedIn"
+                      class="c-pointer mt-2 ml-1"
+                      href="https://www.linkedin.com/company/sea-laboratory/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        src="./images/sea-lab.webp"
+                        alt=""
+                        width="40"
+                        loading="lazy"
+                        decoding="async"
+                        height="40"
+                      />
+                    </a>
+                    <div class="ml-3">
+                      <h3 class="h5">Assistant of SEA Laboratory</h3>
+                      <div class="d-flex">
+                        <a
+                          href="https://www.linkedin.com/company/sea-laboratory/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <p class="category">SEA Laboratory</p>
+                        </a>
+                        <p
+                          class="bg-default ml-2 p-1 pr-2 font-weight-bold job-time"
+                        >
+                          🌑 Part Time
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                    As a Laboratory Assistant of C++ Object-Oriented Programming
+                    and C Programming Algorithms at SEA (Software Engineering
+                    and Application) Laboratory. As a Study Group Mentor of
+                    Desktop Application Division using VB.NET Programming
+                    Language and Microsoft SQL Server at SEA (Software
+                    Engineering and Application) Laboratory.
+                  </p>
+                  <p>
+                    Tool :
+                    <img
+                      src="./images/c++.webp"
+                      alt=""
+                      width="14"
+                      class="mx-1"
+                      loading="lazy"
+                      decoding="async"
+                      height="16"
+                    />C++ ·
+                    <img
+                      src="./images/c.webp"
+                      alt=""
+                      width="14"
+                      class="mx-1"
+                      loading="lazy"
+                      decoding="async"
+                      height="16"
+                    />C ·
+                    <img
+                      src="./images/ms-sql-server.webp"
+                      alt=""
+                      width="14"
+                      class="mx-1"
+                      loading="lazy"
+                      decoding="async"
+                      height="12"
+                    />Microsoft SQL Server ·
+                    <img
+                      src="./images/visual-basic.webp"
+                      alt=""
+                      width="18"
+                      class="mx-1"
+                      loading="lazy"
+                      decoding="async"
+                      height="11"
+                    />Visual Basic.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row">
+              <div
+                class="col-md-3 bg-primary"
+                data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body cc-experience-header">
+                  <p>Jun - Jul 2017</p>
+                  <div>
+                    <a
+                      class="h5 c-pointer c-aliceblue"
+                      href="https://bpjs-kesehatan.go.id/bpjs/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Marketing</a
+                    >
+                  </div>
+                  <div>
+                    <a
+                      class="h5 c-pointer c-aliceblue"
+                      href="https://bpjs-kesehatan.go.id/bpjs/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Participation</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-9"
+                data-aos="fade-left"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body">
+                  <div class="d-flex">
+                    <a
+                      aria-label="BPJS Kesehatan website"
+                      class="c-pointer mt-3 ml-2"
+                      href="https://bpjs-kesehatan.go.id/bpjs/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        src="./images/bpjs-kesehatan.webp"
+                        alt=""
+                        width="40"
+                        loading="lazy"
+                        decoding="async"
+                        height="23"
+                      />
+                    </a>
+                    <div class="ml-3">
+                      <h3 class="h5">Student Intern</h3>
+                      <div class="d-flex">
+                        <a
+                          href="https://bpjs-kesehatan.go.id/bpjs/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <p class="category">BPJS Kesehatan</p>
+                        </a>
+                        <p
+                          class="bg-default ml-2 p-1 pr-2 font-weight-bold job-time"
+                        >
+                          🌖 Internship
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                    As a Student Intern of Marketing and Participation Division
+                    at BPJS (Badan Penyelenggara Jaminan Sosial) Kesehatan,
+                    Cirebon City Region.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="education">
+        <div class="container cc-education">
+          <h2 class="h4 text-center mb-4 title">Education</h2>
+          <div class="card">
+            <div class="row">
+              <div
+                class="col-md-3 bg-primary"
+                data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body cc-education-header">
+                  <h3 class="h5">Master's Degree</h3>
+                </div>
+              </div>
+              <div
+                class="col-md-9"
+                data-aos="fade-left"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body cc-education-hopefully">
+                  <h3 class="h5">Hopefully 😇</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row">
+              <div
+                class="col-md-3 bg-primary"
+                data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body cc-education-header">
+                  <p>2015 - 2019</p>
+                  <h3 class="h5">Bachelor's Degree</h3>
+                </div>
+              </div>
+              <div
+                class="col-md-9"
+                data-aos="fade-left"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body">
+                  <div class="d-flex">
+                    <a
+                      aria-label="Telkom University website"
+                      class="c-pointer mt-2 ml-2"
+                      href="https://telkomuniversity.ac.id/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        src="./images/telu_logo.webp"
+                        alt=""
+                        width="40"
+                        loading="lazy"
+                        decoding="async"
+                        height="49"
+                      />
+                    </a>
+                    <div class="ml-3">
+                      <h3 class="h5">Computer Engineering</h3>
+                      <a
+                        href="https://telkomuniversity.ac.id/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <p class="category">Telkom University</p>
+                      </a>
+                    </div>
+                  </div>
+                  <p>Grade: 3.77</p>
+                  <p>
+                    Activities and societies: SEA Laboratory, DnA, PCM, KOPMA,
+                    ACCESS
+                  </p>
+                  <div class="mb-3">
+                    Studied Algorithms and Programming, Object Oriented
+                    Programming, Basic Software Engineering, Digital System
+                    Design, Computer Network and Data, Microprocessors and
+                    Interfaces, Computer System Security, Database Design,
+                    Operating System, Human Machine Interaction, Control System
+                    and Mechanics, Artificial Intelligent, Digital Signal
+                    Processing, Computer Organization, Coding and Compression,
+                    and Multimedia System.
+                  </div>
+                  <p>
+                    With specialization Next Generation Network 🌐, Computer
+                    Forensics 🔍, Computer Vision 👁️, and Machine Learning 🤖.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row">
+              <div
+                class="col-md-3 bg-primary"
+                data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body cc-education-header">
+                  <p>2012 - 2015</p>
+                  <h3 class="h5">High School</h3>
+                </div>
+              </div>
+              <div
+                class="col-md-9"
+                data-aos="fade-left"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body">
+                  <div class="d-flex">
+                    <a
+                      aria-label="SMAN 1 Cirebon on LinkedIn"
+                      class="c-pointer mt-2 ml-2"
+                      href="https://www.linkedin.com/school/smansacrb/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        src="./images/smansa_crb.webp"
+                        alt=""
+                        width="40"
+                        loading="lazy"
+                        decoding="async"
+                        height="40"
+                      />
+                    </a>
+                    <div class="ml-3">
+                      <h3 class="h5">Science and Mathematics</h3>
+                      <a
+                        href="https://www.linkedin.com/school/smansacrb/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <p class="category">SMA Negeri 1 Cirebon</p>
+                      </a>
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="portfolio">
+        <div class="container">
           <div class="row">
-            <div class="col-lg-6 col-md-12">
-              <div class="card-body">
-                <h3 class="h4 mt-0 title">Abstract</h3>
-                <p>The car is a vehicle that is needed at this time. Many users when they want to choose a car only know
-                  some of the information on the car they like without knowing other similar car information. The
-                  recommended car selection system is a system that can be used by users in choosing a car. With the
-                  implementation of the recommended car selection system, users will get more information about the car
-                  they want to choose, and other cars that the user may not know about at all. In the recommendation of
-                  the car selection system, the author applies the K-Nearest Neighbor (KNN) Collaborative Filtering
-                  method which is carried out based on the proximity of the Testing Data to the Training Data. The
-                  proximity of the data (similarity of data) is used to recommend cars to users. The results obtained in
-                  this study are that if you want to get the 10 best cars, the maximum distance used is 5%, and the best
-                  accuracy is obtained when K = 10, which is 95.15%.</p>
-                <div class="row mt-5">
-                  <div class="col-sm-4"><strong class="text-uppercase">DOI:</strong></div>
-                  <div class="col-sm-8"><a href="https://doi.org/10.25124/tektrika.v4i1"
-                      target="_blank" rel="noopener noreferrer">https://doi.org/10.25124/tektrika.v4i1.1846</a></div>
-                </div>
-                <div class="row mt-3">
-                  <div class="col-sm-4"><strong class="text-uppercase">Published:</strong></div>
-                  <div class="col-sm-8">Monday, 30 September 2019</div>
+            <div class="col-md-6 ml-auto mr-auto">
+              <h2 class="h4 text-center mb-4 title">Portfolio</h2>
+              <div class="nav-align-center">
+                <ul class="nav nav-pills nav-pills-primary" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <a
+                      class="nav-link active"
+                      id="web-development-tab"
+                      data-toggle="tab"
+                      href="#web-development"
+                      role="tab"
+                      aria-controls="web-development"
+                      aria-selected="true"
+                      aria-label="web-development"
+                    >
+                      <i class="fa-solid fa-laptop" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a
+                      class="nav-link"
+                      id="photography-tab"
+                      data-toggle="tab"
+                      href="#photography"
+                      role="tab"
+                      aria-controls="photography"
+                      aria-selected="false"
+                      aria-label="photography"
+                    >
+                      <i class="fa-solid fa-camera" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="tab-content gallery mt-5">
+            <div
+              class="tab-pane active"
+              id="web-development"
+              role="tabpanel"
+              aria-labelledby="web-development-tab"
+            >
+              <div class="ml-auto mr-auto">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div
+                      class="cc-porfolio-image img-raised"
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="top-bottom"
+                    >
+                      <a href="./portfolio/clock.html">
+                        <figure class="cc-effect">
+                          <img
+                            src="./images/clock.webp"
+                            alt="Clock project preview"
+                            loading="lazy"
+                            decoding="async"
+                            width="1920"
+                            height="854"
+                          />
+                          <figcaption>
+                            <div class="h4">Clock</div>
+                            <p></p>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                    <div
+                      class="cc-porfolio-image img-raised"
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="top-bottom"
+                    >
+                      <a href="./portfolio/bima-sakti.html">
+                        <figure class="cc-effect">
+                          <img
+                            src="./images/bima-sakti.webp"
+                            alt="Bima Sakti project preview"
+                            loading="lazy"
+                            decoding="async"
+                            width="1914"
+                            height="856"
+                          />
+                          <figcaption>
+                            <div class="h4">Bima Sakti</div>
+                            <p></p>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                    <div
+                      class="cc-porfolio-image img-raised"
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="top-bottom"
+                    >
+                      <a href="./portfolio/gelinding.html">
+                        <figure class="cc-effect">
+                          <img
+                            src="./images/gelinding.webp"
+                            alt="Gelinding project preview"
+                            loading="lazy"
+                            decoding="async"
+                            width="1920"
+                            height="865"
+                          />
+                          <figcaption>
+                            <div class="h4">Gelinding</div>
+                            <p></p>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                    <div
+                      class="cc-porfolio-image img-raised"
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="top-bottom"
+                    >
+                      <a href="./portfolio/aquarium.html">
+                        <figure class="cc-effect">
+                          <img
+                            src="./images/aquarium.webp"
+                            alt="Aquarium project preview"
+                            loading="lazy"
+                            decoding="async"
+                            width="1920"
+                            height="855"
+                          />
+                          <figcaption>
+                            <div class="h4">Aquarium</div>
+                            <p></p>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div
+                      class="cc-porfolio-image img-raised"
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="top-bottom"
+                    >
+                      <a href="./portfolio/stack.html">
+                        <figure class="cc-effect">
+                          <img
+                            src="./images/stack.webp"
+                            alt="Stack project preview"
+                            loading="lazy"
+                            decoding="async"
+                            width="1920"
+                            height="858"
+                          />
+                          <figcaption>
+                            <div class="h4">Stack</div>
+                            <p></p>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                    <div
+                      class="cc-porfolio-image img-raised"
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="top-bottom"
+                    >
+                      <a href="./portfolio/sini.html">
+                        <figure class="cc-effect">
+                          <img
+                            src="./images/sini.webp"
+                            alt="Sini project preview"
+                            loading="lazy"
+                            decoding="async"
+                            width="1920"
+                            height="857"
+                          />
+                          <figcaption>
+                            <div class="h4">Sini</div>
+                            <p></p>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                    <div
+                      class="cc-porfolio-image img-raised"
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="top-bottom"
+                    >
+                      <a href="./portfolio/love-cube.html">
+                        <figure class="cc-effect">
+                          <img
+                            src="./images/love-cube.webp"
+                            alt="Love Cube project preview"
+                            loading="lazy"
+                            decoding="async"
+                            width="1920"
+                            height="862"
+                          />
+                          <figcaption>
+                            <div class="h4">Love Cube</div>
+                            <p></p>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                    <div
+                      class="cc-porfolio-image img-raised"
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="top-bottom"
+                    >
+                      <a href="./portfolio/keyboard.html">
+                        <figure class="cc-effect">
+                          <img
+                            src="./images/keyboard.webp"
+                            alt="Keyboard project preview"
+                            loading="lazy"
+                            decoding="async"
+                            width="1920"
+                            height="855"
+                          />
+                          <figcaption>
+                            <div class="h4">Press Your Keyboard</div>
+                            <p></p>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 col-md-12">
-              <a class="row py-3" href="https://journals.telkomuniversity.ac.id/tektrika/article/view/1846"
-                target="_blank" rel="noopener noreferrer">
-                <img src="./images/cover-journal-tektrika.webp" alt="Cover of Tektrika journal volume 4 issue 1"
-                  width="596" height="842" class="tektrika-journal" loading="lazy" decoding="async" />
-              </a>
+            <div
+              class="tab-pane"
+              id="photography"
+              role="tabpanel"
+              aria-labelledby="photography-tab"
+            >
+              <div class="ml-auto mr-auto">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div
+                      class="cc-porfolio-image img-raised"
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="top-bottom"
+                    >
+                      <figure class="cc-effect">
+                        <img
+                          src="./images/cikawung-terisi.webp"
+                          alt="Photoshoot at Cikawung"
+                          decoding="async"
+                          width="800"
+                          height="400"
+                          loading="lazy"
+                        />
+                        <figcaption>
+                          <div class="h4">Photoshoot</div>
+                          <p>Photography</p>
+                        </figcaption>
+                      </figure>
+                    </div>
+                    <div
+                      class="cc-porfolio-image img-raised"
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="top-bottom"
+                    >
+                      <figure class="cc-effect">
+                        <img
+                          src="./images/waduk-cipancuh.webp"
+                          alt="Cipancuh reservoir"
+                          decoding="async"
+                          width="800"
+                          height="1005"
+                          loading="lazy"
+                        />
+                        <figcaption>
+                          <div class="h4">Nature Photoshoot</div>
+                          <p>Photography</p>
+                        </figcaption>
+                      </figure>
+                    </div>
+                    <div
+                      class="cc-porfolio-image img-raised"
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="top-bottom"
+                    >
+                      <figure class="cc-effect">
+                        <img
+                          src="./images/rumput.webp"
+                          alt="Grass and plants"
+                          decoding="async"
+                          width="640"
+                          height="482"
+                          loading="lazy"
+                        />
+                        <figcaption>
+                          <div class="h4">Random Photoshoot</div>
+                          <p>Photography</p>
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div
+                      class="cc-porfolio-image img-raised"
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="top-bottom"
+                    >
+                      <figure class="cc-effect">
+                        <img
+                          src="./images/jakarta-barat.webp"
+                          alt="Street in Jakarta Barat"
+                          decoding="async"
+                          width="560"
+                          height="560"
+                          loading="lazy"
+                        />
+                        <figcaption>
+                          <div class="h4">Street Photoshoot</div>
+                          <p>Photography</p>
+                        </figcaption>
+                      </figure>
+                    </div>
+                    <div
+                      class="cc-porfolio-image img-raised"
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="top-bottom"
+                    >
+                      <figure class="cc-effect">
+                        <img
+                          src="./images/telaga-biru-cicerep.webp"
+                          alt="Telaga Biru Cicerep"
+                          decoding="async"
+                          width="720"
+                          height="1107"
+                          loading="lazy"
+                        />
+                        <figcaption>
+                          <div class="h4">Destination Photoshoot</div>
+                          <p>Photography</p>
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="section" id="reference">
-        <div class="container cc-reference">
-          <h2 class="h4 mb-4 text-center title">Training</h2>
-          <div class="card" data-aos="zoom-in">
-            <div class="carousel slide" id="cc-Indicators" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li class="active c-pointer" data-target="#cc-Indicators" data-slide-to="0">
-                  <button type="button" aria-label="Training slide 1"></button>
-                </li>
-                <li class="c-pointer" data-target="#cc-Indicators" data-slide-to="1">
-                  <button type="button" aria-label="Training slide 2"></button>
-                </li>
-                <li class="c-pointer" data-target="#cc-Indicators" data-slide-to="2">
-                  <button type="button" aria-label="Training slide 3"></button>
-                </li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="row">
-                    <div class="col-lg-2 col-md-3 cc-reference-header">
-                      <img src="./images/sanbercode.webp" alt="" class="training" decoding="async" />
-                      <a href="https://sanbercode.com/">
-                        <p class="category mt-2">Sanbercode</p>
-                      </a>
+      <div class="section" id="journal">
+        <div class="container">
+          <h2 class="h4 mb-4 text-center title">Journal</h2>
+          <div class="card" data-aos="fade-up" data-aos-offset="10">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <div class="card-body">
+                  <h3 class="h4 mt-0 title">Abstract</h3>
+                  <p>
+                    The car is a vehicle that is needed at this time. Many users
+                    when they want to choose a car only know some of the
+                    information on the car they like without knowing other
+                    similar car information. The recommended car selection
+                    system is a system that can be used by users in choosing a
+                    car. With the implementation of the recommended car
+                    selection system, users will get more information about the
+                    car they want to choose, and other cars that the user may
+                    not know about at all. In the recommendation of the car
+                    selection system, the author applies the K-Nearest Neighbor
+                    (KNN) Collaborative Filtering method which is carried out
+                    based on the proximity of the Testing Data to the Training
+                    Data. The proximity of the data (similarity of data) is used
+                    to recommend cars to users. The results obtained in this
+                    study are that if you want to get the 10 best cars, the
+                    maximum distance used is 5%, and the best accuracy is
+                    obtained when K = 10, which is 95.15%.
+                  </p>
+                  <div class="row mt-5">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">DOI:</strong>
                     </div>
-                    <div class="col-lg-10 col-md-9">
-                      <h3 class="h5 mb-2">Online Learning &amp; Bootcamp</h3>
-                      <p>Aug - Sep 2020 | Laravel Lifecycle + Middleware, Creating a RESTful Laravel API, Creating
-                        Laravel Authentication with JWT, Creating a Laravel &amp; Vue JS CRUD, Redis implementation in
-                        Laravel, Broadcasting Laravel with socket.io, Queue and scheduling implementation, and Make
-                        Simple Unit Tests.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="row">
-                    <div class="col-lg-2 col-md-3 cc-reference-header">
-                      <img src="./images/digitalent.webp" alt="" class="training" decoding="async" />
-                      <a href="https://digitalent.kominfo.go.id/">
-                        <p class="category mt-2">Kominfo</p>
-                      </a>
-                    </div>
-                    <div class="col-lg-10 col-md-9">
-                      <h3 class="h5 mb-2">Digitalent Scholarship</h3>
-                      <p>Jul - Aug 2019 | AWS (Amazon Web Services), Python Programming Language, Machine Learning, Deep
-                        Learning, Softskills Development, and Digital Entrepreneurship.</p>
-                      <p>Apr - Jun 2020 | Programming : HTML, CSS, Javascript - Progate.</p>
+                    <div class="col-sm-8">
+                      <a
+                        href="https://doi.org/10.25124/tektrika.v4i1"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >https://doi.org/10.25124/tektrika.v4i1.1846</a
+                      >
                     </div>
                   </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="row">
-                    <div class="col-lg-2 col-md-3 cc-reference-header">
-                      <img src="./images/ish.webp" alt="" class="training" decoding="async" />
-                      <a href="https://ish.co.id/">
-                        <p class="category mt-2">PT. ISH</p>
-                      </a>
+                  <div class="row mt-3">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">Published:</strong>
                     </div>
-                    <div class="col-lg-10 col-md-9">
-                      <h3 class="h5 mb-2">LPK Infomedia Solusi Humanika</h3>
-                      <p>Jul 2019 - Jan 2020 | Japanese Language.</p>
-                    </div>
+                    <div class="col-sm-8">Monday, 30 September 2019</div>
                   </div>
                 </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <a
+                  class="row py-3"
+                  href="https://journals.telkomuniversity.ac.id/tektrika/article/view/1846"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="./images/cover-journal-tektrika.webp"
+                    alt="Cover of Tektrika journal volume 4 issue 1"
+                    width="596"
+                    height="842"
+                    class="tektrika-journal"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </a>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="section" id="contact">
-        <div class="cc-contact-information">
-          <div id="googlemaps">
-            <iframe
-              src="https://maps.google.com/maps?q=Ciparay%2C%20Bandung&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
-              title="Ciparay, Bandung" width="100%" height="100%" class="border-0" allowfullscreen=""
-              referrerpolicy="no-referrer-when-downgrade" loading="lazy"></iframe>
-          </div>
-          <div class="container">
-            <div class="cc-contact">
-              <div class="row">
-                <div class="col-md-9">
-                  <div class="card mb-0" data-aos="zoom-in">
-                    <h2 class="h4 text-center title">Contact Me</h2>
+        <div class="section" id="reference">
+          <div class="container cc-reference">
+            <h2 class="h4 mb-4 text-center title">Training</h2>
+            <div class="card" data-aos="zoom-in">
+              <div
+                class="carousel slide"
+                id="cc-Indicators"
+                data-ride="carousel"
+              >
+                <ol class="carousel-indicators">
+                  <li
+                    class="active c-pointer"
+                    data-target="#cc-Indicators"
+                    data-slide-to="0"
+                  >
+                    <button
+                      type="button"
+                      aria-label="Training slide 1"
+                    ></button>
+                  </li>
+                  <li
+                    class="c-pointer"
+                    data-target="#cc-Indicators"
+                    data-slide-to="1"
+                  >
+                    <button
+                      type="button"
+                      aria-label="Training slide 2"
+                    ></button>
+                  </li>
+                  <li
+                    class="c-pointer"
+                    data-target="#cc-Indicators"
+                    data-slide-to="2"
+                  >
+                    <button
+                      type="button"
+                      aria-label="Training slide 3"
+                    ></button>
+                  </li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
                     <div class="row">
-                      <div class="col-md-6">
-                        <div class="card-body">
-                          <form action="https://formspree.io/f/xzbonkqp" method="POST">
-                            <div class="p pb-3"><strong>Feel free to contact me</strong></div>
-                            <input type="text" name="_gotcha" class="d-none" tabindex="-1" autocomplete="off"
-                              aria-hidden="true">
-                            <div class="row mb-3">
-                              <div class="col">
-                                <div class="input-group"><span class="input-group-addon"><i
-                                      class="fa-solid fa-circle-user" aria-hidden="true"></i></span>
-                                  <label class="sr-only" for="contact-name">Name</label>
-                                  <input class="form-control" id="contact-name" type="text" name="name"
-                                    placeholder="Name" autocomplete="name" required />
-                                </div>
-                              </div>
-                            </div>
-                            <div class="row mb-3">
-                              <div class="col">
-                                <div class="input-group"><span class="input-group-addon"><i
-                                      class="fa-solid fa-file-lines" aria-hidden="true"></i></span>
-                                  <label class="sr-only" for="contact-subject">Subject</label>
-                                  <input class="form-control" id="contact-subject" type="text" name="Subject"
-                                    placeholder="Subject" autocomplete="off" required />
-                                </div>
-                              </div>
-                            </div>
-                            <div class="row mb-3">
-                              <div class="col">
-                                <div class="input-group"><span class="input-group-addon"><i
-                                      class="fa-solid fa-envelope" aria-hidden="true"></i></span>
-                                  <label class="sr-only" for="contact-email">E-mail</label>
-                                  <input class="form-control" id="contact-email" type="email" name="_replyto"
-                                    placeholder="E-mail" autocomplete="email" inputmode="email" required />
-                                </div>
-                              </div>
-                            </div>
-                            <div class="row mb-3">
-                              <div class="col">
-                                <div class="form-group">
-                                  <label class="sr-only" for="contact-message">Your Message</label>
-                                  <textarea class="form-control" id="contact-message" name="message"
-                                    placeholder="Your Message" required></textarea>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col">
-                                <button class="btn btn-primary" type="submit"><i
-                                    class="fa-solid fa-paper-plane mr-2" aria-hidden="true"></i>Send</button>
-                              </div>
-                            </div>
-                            <div id="contact-status" class="mt-3" role="status" aria-live="polite"></div>
-                          </form>
-                        </div>
+                      <div class="col-lg-2 col-md-3 cc-reference-header">
+                        <img
+                          width="150"
+                          src="./images/sanbercode.webp"
+                          alt=""
+                          class="training"
+                          decoding="async"
+                          height="150"
+                        />
+                        <a href="https://sanbercode.com/">
+                          <p class="category mt-2">Sanbercode</p>
+                        </a>
                       </div>
-                      <div class="col-md-6">
-                        <div class="card-body">
-                          <p class="mb-0"><strong>Address</strong></p>
-                          <p class="pb-2">Ciparay, Bandung</p>
-                          <p class="mb-0"><strong>Phone</strong></p>
-                          <p class="pb-2">+62xxxxxxxxxxx</p>
-                          <p class="mb-0"><strong>Email</strong></p>
-                          <p><a href="mailto:iggusti@gmail.com">iggusti@gmail.com</a></p>
+                      <div class="col-lg-10 col-md-9">
+                        <h3 class="h5 mb-2">Online Learning &amp; Bootcamp</h3>
+                        <p>
+                          Aug - Sep 2020 | Laravel Lifecycle + Middleware,
+                          Creating a RESTful Laravel API, Creating Laravel
+                          Authentication with JWT, Creating a Laravel &amp; Vue
+                          JS CRUD, Redis implementation in Laravel, Broadcasting
+                          Laravel with socket.io, Queue and scheduling
+                          implementation, and Make Simple Unit Tests.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-lg-2 col-md-3 cc-reference-header">
+                        <img
+                          width="150"
+                          src="./images/digitalent.webp"
+                          alt=""
+                          class="training"
+                          decoding="async"
+                          height="152"
+                        />
+                        <a href="https://digitalent.kominfo.go.id/">
+                          <p class="category mt-2">Kominfo</p>
+                        </a>
+                      </div>
+                      <div class="col-lg-10 col-md-9">
+                        <h3 class="h5 mb-2">Digitalent Scholarship</h3>
+                        <p>
+                          Jul - Aug 2019 | AWS (Amazon Web Services), Python
+                          Programming Language, Machine Learning, Deep Learning,
+                          Softskills Development, and Digital Entrepreneurship.
+                        </p>
+                        <p>
+                          Apr - Jun 2020 | Programming : HTML, CSS, Javascript -
+                          Progate.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-lg-2 col-md-3 cc-reference-header">
+                        <img
+                          width="150"
+                          src="./images/ish.webp"
+                          alt=""
+                          class="training"
+                          decoding="async"
+                          height="150"
+                        />
+                        <a href="https://ish.co.id/">
+                          <p class="category mt-2">PT. ISH</p>
+                        </a>
+                      </div>
+                      <div class="col-lg-10 col-md-9">
+                        <h3 class="h5 mb-2">LPK Infomedia Solusi Humanika</h3>
+                        <p>Jul 2019 - Jan 2020 | Japanese Language.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section" id="contact">
+          <div class="cc-contact-information">
+            <div id="googlemaps">
+              <iframe
+                src="https://maps.google.com/maps?q=Ciparay%2C%20Bandung&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+                title="Ciparay, Bandung"
+                width="100%"
+                height="100%"
+                class="border-0"
+                allowfullscreen=""
+                referrerpolicy="no-referrer-when-downgrade"
+                loading="lazy"
+              ></iframe>
+            </div>
+            <div class="container">
+              <div class="cc-contact">
+                <div class="row">
+                  <div class="col-md-9">
+                    <div class="card mb-0" data-aos="zoom-in">
+                      <h2 class="h4 text-center title">Contact Me</h2>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="card-body">
+                            <form
+                              action="https://formspree.io/f/xzbonkqp"
+                              method="POST"
+                            >
+                              <div class="p pb-3">
+                                <strong>Feel free to contact me</strong>
+                              </div>
+                              <input
+                                type="text"
+                                name="_gotcha"
+                                class="d-none"
+                                tabindex="-1"
+                                autocomplete="off"
+                                aria-hidden="true"
+                              />
+                              <div class="row mb-3">
+                                <div class="col">
+                                  <div class="input-group">
+                                    <span class="input-group-addon"
+                                      ><i
+                                        class="fa-solid fa-circle-user"
+                                        aria-hidden="true"
+                                      ></i
+                                    ></span>
+                                    <label class="sr-only" for="contact-name"
+                                      >Name</label
+                                    >
+                                    <input
+                                      class="form-control"
+                                      id="contact-name"
+                                      type="text"
+                                      name="name"
+                                      placeholder="Name"
+                                      autocomplete="name"
+                                      required
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row mb-3">
+                                <div class="col">
+                                  <div class="input-group">
+                                    <span class="input-group-addon"
+                                      ><i
+                                        class="fa-solid fa-file-lines"
+                                        aria-hidden="true"
+                                      ></i
+                                    ></span>
+                                    <label class="sr-only" for="contact-subject"
+                                      >Subject</label
+                                    >
+                                    <input
+                                      class="form-control"
+                                      id="contact-subject"
+                                      type="text"
+                                      name="Subject"
+                                      placeholder="Subject"
+                                      autocomplete="off"
+                                      required
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row mb-3">
+                                <div class="col">
+                                  <div class="input-group">
+                                    <span class="input-group-addon"
+                                      ><i
+                                        class="fa-solid fa-envelope"
+                                        aria-hidden="true"
+                                      ></i
+                                    ></span>
+                                    <label class="sr-only" for="contact-email"
+                                      >E-mail</label
+                                    >
+                                    <input
+                                      class="form-control"
+                                      id="contact-email"
+                                      type="email"
+                                      name="_replyto"
+                                      placeholder="E-mail"
+                                      autocomplete="email"
+                                      inputmode="email"
+                                      required
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row mb-3">
+                                <div class="col">
+                                  <div class="form-group">
+                                    <label class="sr-only" for="contact-message"
+                                      >Your Message</label
+                                    >
+                                    <textarea
+                                      class="form-control"
+                                      id="contact-message"
+                                      name="message"
+                                      placeholder="Your Message"
+                                      required
+                                    ></textarea>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col">
+                                  <button class="btn btn-primary" type="submit">
+                                    <i
+                                      class="fa-solid fa-paper-plane mr-2"
+                                      aria-hidden="true"
+                                    ></i
+                                    >Send
+                                  </button>
+                                </div>
+                              </div>
+                              <div
+                                id="contact-status"
+                                class="mt-3"
+                                role="status"
+                                aria-live="polite"
+                              ></div>
+                            </form>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="card-body">
+                            <p class="mb-0"><strong>Address</strong></p>
+                            <p class="pb-2">Ciparay, Bandung</p>
+                            <p class="mb-0"><strong>Phone</strong></p>
+                            <p class="pb-2">+62xxxxxxxxxxx</p>
+                            <p class="mb-0"><strong>Email</strong></p>
+                            <p>
+                              <a href="mailto:iggusti@gmail.com"
+                                >iggusti@gmail.com</a
+                              >
+                            </p>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -1113,26 +2350,23 @@
           </div>
         </div>
       </div>
-    </div>
-    <footer class="footer">
-      <div class="container text-center">
-        <a class="cc-github btn btn-link" aria-label="github" href="https://github.com/iggusti" target="_blank"
-          rel="noopener noreferrer">
-          <i class="fa-brands fa-github fa-2x " aria-hidden="true"></i>
-        </a>
-      </div>
-      <div class="h4 title text-center">Ilham Gumantung Gusti</div>
-      <div class="text-center text-muted">
-        <p>&copy; iggusti's page. All rights reserved.</p>
-      </div>
-    </footer>
-  </main>
-    <script src="js/core/jquery.3.7.1.min.js?ver=1.4.2"></script>
-    <script src="js/core/popper.min.js?ver=1.4.2"></script>
-    <script src="js/core/bootstrap.min.js?ver=1.4.2"></script>
-    <script src="js/now-ui-kit.js?ver=1.4.2"></script>
-    <script src="js/aos.js?ver=1.4.2"></script>
-    <script src="scripts/main.js?ver=1.4.2"></script>
-</body>
-
+      <footer class="footer">
+        <div class="container text-center">
+          <a
+            class="cc-github btn btn-link"
+            aria-label="github"
+            href="https://github.com/iggusti"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-brands fa-github fa-2x" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="h4 title text-center">Ilham Gumantung Gusti</div>
+        <div class="text-center text-muted">
+          <p>&copy; iggusti's page. All rights reserved.</p>
+        </div>
+      </footer>
+    </main>
+  </body>
 </html>

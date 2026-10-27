@@ -1,4 +1,4 @@
-const CACHE = 'iggusti-1.4.2';
+const CACHE = 'iggusti-1.4.3';
 
 const ASSETS = [
   './',
@@ -21,6 +21,7 @@ const ASSETS = [
   './fonts/fa-solid-900.woff2',
   './fonts/fa-brands-400.woff2',
   './images/iggusti.webp',
+  './images/iggusti-150.webp',
   './images/og-cover.jpg',
   './images/icon-192.png',
   './images/icon-512.png',

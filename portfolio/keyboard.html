@@ -1,121 +1,167 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Interactive 3D keyboard built with CSS, part of the portfolio of Ilham Gumantung Gusti."
+    />
+    <meta name="author" content="Ilham Gumantung Gusti" />
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme: light)"
+      content="#3a7f40"
+    />
+    <meta name="robots" content="index, follow" />
+    <link
+      rel="canonical"
+      href="https://iggusti.github.io/curriculum-vitae/portfolio/keyboard.html"
+    />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Interactive 3D keyboard built with CSS, part of the portfolio of Ilham Gumantung Gusti.">
-    <meta name="author" content="Ilham Gumantung Gusti">
-    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#3a7f40">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://iggusti.github.io/curriculum-vitae/portfolio/keyboard.html">
+    <meta property="og:title" content="Press Your Keyboard | iggusti 😄" />
+    <meta
+      property="og:description"
+      content="Interactive 3D keyboard built with CSS, part of the portfolio of Ilham Gumantung Gusti."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://iggusti.github.io/curriculum-vitae/portfolio/keyboard.html"
+    />
+    <meta
+      property="og:image"
+      content="https://iggusti.github.io/curriculum-vitae/images/og-cover.jpg"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Ilham Gumantung Gusti" />
+    <meta property="og:site_name" content="iggusti's page" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Press Your Keyboard | iggusti 😄" />
+    <meta
+      name="twitter:description"
+      content="Interactive 3D keyboard built with CSS, part of the portfolio of Ilham Gumantung Gusti."
+    />
+    <meta
+      name="twitter:image"
+      content="https://iggusti.github.io/curriculum-vitae/images/og-cover.jpg"
+    />
 
-    <meta property="og:title" content="Press Your Keyboard | iggusti 😄">
-    <meta property="og:description" content="Interactive 3D keyboard built with CSS, part of the portfolio of Ilham Gumantung Gusti.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://iggusti.github.io/curriculum-vitae/portfolio/keyboard.html">
-    <meta property="og:image" content="https://iggusti.github.io/curriculum-vitae/images/og-cover.jpg">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Ilham Gumantung Gusti">
-    <meta property="og:site_name" content="iggusti's page">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Press Your Keyboard | iggusti 😄">
-    <meta name="twitter:description" content="Interactive 3D keyboard built with CSS, part of the portfolio of Ilham Gumantung Gusti.">
-    <meta name="twitter:image" content="https://iggusti.github.io/curriculum-vitae/images/og-cover.jpg">
-
-    <link rel="preload" as="font" type="font/woff2" href="../fonts/montserrat-latin-400-normal.woff2" crossorigin>
-    <link rel="preload" as="font" type="font/woff2" href="../fonts/montserrat-latin-700-normal.woff2" crossorigin>
-    <link href="../css/fonts.css?ver=1.4.2" rel="stylesheet">
-    <link href="../css/bootstrap.min.css?ver=1.4.2" rel="stylesheet">
-    <link href="../css/main.css?ver=1.4.2" rel="stylesheet">
-    <link rel="stylesheet" href="../css/keyboard.css?ver=1.4.2">
-    <link rel="manifest" href="../manifest.json">
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      href="../fonts/montserrat-latin-400-normal.woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      href="../fonts/montserrat-latin-700-normal.woff2"
+      crossorigin
+    />
+    <link href="../css/fonts.css?ver=1.4.3" rel="stylesheet" />
+    <link href="../css/bootstrap.min.css?ver=1.4.3" rel="stylesheet" />
+    <link href="../css/main.css?ver=1.4.3" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/keyboard.css?ver=1.4.3" />
+    <link rel="manifest" href="../manifest.json" />
     <title>Press Your Keyboard | iggusti 😄</title>
-    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
-    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
-</head>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png" />
+  </head>
 
-<body>
+  <body>
     <main class="main-flat">
-    <header>
+      <header>
         <div class="profile-page sidebar-collapse">
-            <nav class="navbar navbar-expand-lg fixed-top bg-primary" color-on-scroll="400">
-                <div class="container">
-                    <div class="navbar-translate">
-                        <a class="navbar-brand header-style" href="../#portfolio" rel="tooltip">IGGUSTI</a>
-                    </div>
-                </div>
-            </nav>
+          <nav
+            class="navbar navbar-expand-lg fixed-top bg-primary"
+            color-on-scroll="400"
+          >
+            <div class="container">
+              <div class="navbar-translate">
+                <a
+                  class="navbar-brand header-style"
+                  href="../#portfolio"
+                  rel="tooltip"
+                  >IGGUSTI</a
+                >
+              </div>
+            </div>
+          </nav>
         </div>
-    </header>
-    <div class="keyboard" style="padding-top: 130px;">
+      </header>
+      <div class="keyboard" style="padding-top: 130px">
         <ul class="row row-0">
-            <li class="pinky" id="esc">ESC</li>
-            <li class="pinky" id="1">1</li>
-            <li class="ring" id="2">2</li>
-            <li class="middle" id="3">3</li>
-            <li class="pointer1st" id="4">4</li>
-            <li class="pointer2nd" id="5">5</li>
-            <li class="pointer2nd" id="6">6</li>
-            <li class="pointer1st" id="7">7</li>
-            <li class="middle" id="8">8</li>
-            <li class="ring" id="9">9</li>
-            <li class="pinky" id="10">0</li>
-            <li class="pinky">-</li>
-            <li class="pinky">+</li>
-            <li class="pinky" id="back">BACK</li>
+          <li class="pinky" id="esc">ESC</li>
+          <li class="pinky" id="1">1</li>
+          <li class="ring" id="2">2</li>
+          <li class="middle" id="3">3</li>
+          <li class="pointer1st" id="4">4</li>
+          <li class="pointer2nd" id="5">5</li>
+          <li class="pointer2nd" id="6">6</li>
+          <li class="pointer1st" id="7">7</li>
+          <li class="middle" id="8">8</li>
+          <li class="ring" id="9">9</li>
+          <li class="pinky" id="10">0</li>
+          <li class="pinky">-</li>
+          <li class="pinky">+</li>
+          <li class="pinky" id="back">BACK</li>
         </ul>
         <ul class="row row-1">
-            <li class="pinky" id="tab">TAB</li>
-            <li class="pinky" id="Q">Q</li>
-            <li class="ring" id="W">W</li>
-            <li class="middle" id="E">E</li>
-            <li class="pointer1st" id="R">R</li>
-            <li class="pointer2nd" id="T">T</li>
-            <li class="pointer2nd" id="Y">Y</li>
-            <li class="pointer1st" id="U">U</li>
-            <li class="middle" id="I">I</li>
-            <li class="ring" id="O">O</li>
-            <li class="pinky" id="P">P</li>
-            <li class="pinky">[</li>
-            <li class="pinky">]</li>
-            <li class="pinky">\</li>
+          <li class="pinky" id="tab">TAB</li>
+          <li class="pinky" id="Q">Q</li>
+          <li class="ring" id="W">W</li>
+          <li class="middle" id="E">E</li>
+          <li class="pointer1st" id="R">R</li>
+          <li class="pointer2nd" id="T">T</li>
+          <li class="pointer2nd" id="Y">Y</li>
+          <li class="pointer1st" id="U">U</li>
+          <li class="middle" id="I">I</li>
+          <li class="ring" id="O">O</li>
+          <li class="pinky" id="P">P</li>
+          <li class="pinky">[</li>
+          <li class="pinky">]</li>
+          <li class="pinky">\</li>
         </ul>
         <ul class="row row-2">
-            <li class="pinky" id="caps">CAPS</li>
-            <li class="pinky" id="A">A</li>
-            <li class="ring" id="S">S</li>
-            <li class="middle" id="D">D</li>
-            <li class="pointer1st" id="F">F</li>
-            <li class="pointer2nd" id="G">G</li>
-            <li class="pointer2nd" id="H">H</li>
-            <li class="pointer1st" id="J">J</li>
-            <li class="middle" id="K">K</li>
-            <li class="ring" id="L">L</li>
-            <li class="pinky">:</li>
-            <li class="pinky">''</li>
-            <li class="pinky" id="enter">ENTER</li>
+          <li class="pinky" id="caps">CAPS</li>
+          <li class="pinky" id="A">A</li>
+          <li class="ring" id="S">S</li>
+          <li class="middle" id="D">D</li>
+          <li class="pointer1st" id="F">F</li>
+          <li class="pointer2nd" id="G">G</li>
+          <li class="pointer2nd" id="H">H</li>
+          <li class="pointer1st" id="J">J</li>
+          <li class="middle" id="K">K</li>
+          <li class="ring" id="L">L</li>
+          <li class="pinky">:</li>
+          <li class="pinky">''</li>
+          <li class="pinky" id="enter">ENTER</li>
         </ul>
         <ul class="row row-3">
-            <li class="pinky" id="left-shift">SHIFT</li>
-            <li class="pinky" id="Z">Z</li>
-            <li class="ring" id="X">X</li>
-            <li class="middle" id="C">C</li>
-            <li class="pointer1st" id="V">V</li>
-            <li class="pointer2nd" id="B">B</li>
-            <li class="pointer2nd" id="N">N</li>
-            <li class="pointer1st" id="M">M</li>
-            <li class="middle">,</li>
-            <li class="ring">.</li>
-            <li class="pinky">;</li>
-            <li class="pinky" id="right-shift">SHIFT</li>
+          <li class="pinky" id="left-shift">SHIFT</li>
+          <li class="pinky" id="Z">Z</li>
+          <li class="ring" id="X">X</li>
+          <li class="middle" id="C">C</li>
+          <li class="pointer1st" id="V">V</li>
+          <li class="pointer2nd" id="B">B</li>
+          <li class="pointer2nd" id="N">N</li>
+          <li class="pointer1st" id="M">M</li>
+          <li class="middle">,</li>
+          <li class="ring">.</li>
+          <li class="pinky">;</li>
+          <li class="pinky" id="right-shift">SHIFT</li>
         </ul>
-    </div>
-    <h1 class="title" style="text-align: center; line-height: 1.8;">Press your keyboard <br> Base on screen</h1>
-    <script src="../js/keyboard.js?ver=1.4.2"></script>
+      </div>
+      <h1 class="title" style="text-align: center; line-height: 1.8">
+        Press your keyboard <br />
+        Base on screen
+      </h1>
+      <script src="../js/keyboard.js?ver=1.4.3"></script>
     </main>
-</body>
-
+  </body>
 </html>

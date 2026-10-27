@@ -8,6 +8,7 @@
     "attribute-allowed-values": "off",
     "void-style": "off",
     "no-trailing-whitespace": "off",
-    "valid-id": "off"
+    "valid-id": "off",
+    "doctype-style": ["error", { "style": "lowercase" }]
   }
 }
