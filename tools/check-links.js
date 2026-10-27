@@ -61,6 +61,20 @@ function walk(dir) {
 
 walk(root);
 
+const manifestPath = path.join(root, 'manifest.json');
+const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
+
+for (const icon of manifest.icons || []) {
+  checkAsset(manifestPath, icon.src);
+}
+
+const swPath = path.join(root, 'sw.js');
+const sw = fs.readFileSync(swPath, 'utf8');
+
+for (const match of sw.matchAll(/'(\.\/[^']+)'/g)) {
+  checkAsset(swPath, match[1]);
+}
+
 if (failures.length) {
   console.error('Broken local references:');
   for (const failure of failures) {

@@ -14,5 +14,5 @@ jobs:
         with:
           node-version: 24
       - run: npx --yes html-validate@11 "*.html" "portfolio/*.html"
-      - run: node scripts/check-links.js
+      - run: node tools/check-links.js
       - run: node -e "for (const f of ['manifest.json', '.htmlvalidate.json']) JSON.parse(require('fs').readFileSync(f, 'utf8'))"

@@ -19,7 +19,13 @@
   }
 
   if (window.AOS) {
-    AOS.init();
+    AOS.init({ once: true, disable: 'mobile' });
+  }
+
+  var carousel = document.getElementById('cc-Indicators');
+
+  if (carousel && window.jQuery) {
+    window.jQuery(carousel).carousel({ interval: false });
   }
 
   document.addEventListener('click', function (event) {
