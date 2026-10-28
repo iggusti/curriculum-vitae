@@ -22,7 +22,7 @@ TIDAK ada. Tidak ada package.json, bundler, atau test runner. File statis langsu
 ## Konvensi Kode
 
 - Bootstrap 4 + Now UI Kit + jQuery + AOS untuk animasi
-- Cache-busting: semua asset lokal memakai query `?ver=1.6.0` — naikkan versi saat file asset berubah, termasuk `CACHE` di `sw.js`
+- Cache-busting: semua asset lokal memakai query `?ver=1.6.1` — naikkan versi saat file asset berubah, termasuk `CACHE` di `sw.js`
 - Path aset selalu relatif terhadap halaman (`./assets/...` atau `../assets/...`), bukan absolut
 - Alt text gambar mengikuti pola `gambar_<nama_file>` (berbahasa Indonesia)
 - Navigasi section memakai class `smooth-scroll` + id anchor (`#about`, `#skill`, dll.)
