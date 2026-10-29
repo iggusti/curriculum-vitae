@@ -28,6 +28,31 @@
     window.jQuery(carousel).carousel({ interval: false });
   }
 
+  var versionsToggles = document.querySelectorAll('.versions-toggle');
+
+  if (versionsToggles.length && window.jQuery) {
+    versionsToggles.forEach(function (toggle) {
+      var target = document.querySelector(
+        toggle.getAttribute('data-target') || toggle.getAttribute('href')
+      );
+
+      if (!target) {
+        return;
+      }
+
+      window.jQuery(target).on('show.bs.collapse hide.bs.collapse', function (event) {
+        var expanded = event.type === 'show';
+
+        toggle
+          .querySelector('.versions-toggle-more')
+          .classList.toggle('d-none', expanded);
+        toggle
+          .querySelector('.versions-toggle-less')
+          .classList.toggle('d-none', !expanded);
+      });
+    });
+  }
+
   document.addEventListener('click', function (event) {
     var link = event.target.closest('a.smooth-scroll');
 
