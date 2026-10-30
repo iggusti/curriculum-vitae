@@ -1,4 +1,4 @@
-const CACHE = 'iggusti-1.7.0';
+const CACHE = 'iggusti-1.7.1';
 
 const ASSETS = [
   './',

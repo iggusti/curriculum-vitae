@@ -22,9 +22,7 @@ TIDAK ada. Tidak ada package.json, bundler, atau test runner. File statis langsu
 ## Konvensi Kode
 
 - Bootstrap 4 + Now UI Kit + jQuery + AOS untuk animasi
-- Cache-busting: semua asset lokal memakai query `?ver=1.6.5` — naikkan versi saat file asset berubah, termasuk `CACHE` di `sw.js`
-
-## Cache Lifetimes
+- Cache-busting: semua asset lokal memakai query `?ver=1.7.1` — naikkan versi saat file asset berubah, termasuk `CACHE` di `sw.js`
 
 - Use efficient cache lifetimes to speed up repeat visits to your page. Learn more about caching
 - Avoid forced reflows by querying geometric properties (such as offsetWidth) after styles have been invalidated by a change to the DOM state. This can result in poor performance. Learn more about forced reflows and possible mitigations
