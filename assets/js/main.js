@@ -19,7 +19,7 @@
   }
 
   if (window.AOS) {
-    AOS.init({ once: true, disable: 'mobile' });
+    AOS.init();
   }
 
   var carousel = document.getElementById('cc-Indicators');
