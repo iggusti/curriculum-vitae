@@ -23,6 +23,16 @@ TIDAK ada. Tidak ada package.json, bundler, atau test runner. File statis langsu
 
 - Bootstrap 4 + Now UI Kit + jQuery + AOS untuk animasi
 - Cache-busting: semua asset lokal memakai query `?ver=1.6.5` — naikkan versi saat file asset berubah, termasuk `CACHE` di `sw.js`
+
+## Cache Lifetimes
+
+- Use efficient cache lifetimes to speed up repeat visits to your page. Learn more about caching
+- Avoid forced reflows by querying geometric properties (such as offsetWidth) after styles have been invalidated by a change to the DOM state. This can result in poor performance. Learn more about forced reflows and possible mitigations
+- Avoid chaining critical requests by reducing the length of chains, reducing the download size of resources, or deferring the download of unnecessary resources to improve page load
+- Requests are blocking the page's initial render, which may delay LCP. Deferring or inlining can move these network requests out of the critical path
+- Minifying JavaScript files can reduce payload sizes and script parse time. Learn how to minify JavaScript
+- Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. Learn how to reduce unused CSS
+- Consider reducing the time spent parsing, compiling and executing JS. You may find delivering smaller JS payloads helps with this. Learn how to minimize main-thread work
 - Path aset selalu relatif terhadap halaman (`./assets/...` atau `../assets/...`), bukan absolut
 - Alt text gambar mengikuti pola `gambar_<nama_file>` (berbahasa Indonesia)
 - Navigasi section memakai class `smooth-scroll` + id anchor (`#about`, `#skill`, dll.)
